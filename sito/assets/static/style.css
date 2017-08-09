@@ -1,0 +1,417 @@
+body {
+    font-family: 'DejaVu Sans';
+}
+
+a {
+    transition: 0.2s opacity ease-out;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+a.button:hover {
+    opacity: 1;
+}
+
+.wrapper {
+    max-width: 60em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.page-title {
+    margin-top: 0.2em;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 1.75em;
+}
+
+header nav {
+    background: linear-gradient(45deg, #349967, #0678bd);
+    overflow-y: auto;
+}
+
+header nav .wrapper {
+    width: 60em;
+    padding: 0;
+}
+
+header nav .wrapper:after {
+    clear: both;
+
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+header nav ul.left {
+    float: left;
+    text-align: left;
+}
+
+header nav ul.right {
+    float: right;
+    text-align: right;
+}
+
+header nav ul.inline-list li {
+    padding: 0;
+}
+
+header nav ul li.brand {
+    padding: 0.8em 1.5em;
+    color: #fff;
+}
+
+header nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0.8em 1em;
+
+    opacity: 0.7;
+}
+
+header nav ul li a:hover {
+    opacity: 1;
+}
+
+header nav ul li a.active {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+
+
+hr {
+    margin: 2em 0;
+    border: 0;
+    border-top: 0.1em dotted #ccc;
+}
+
+div.pagination {
+    text-align: center;
+    margin: 2em 0;
+}
+
+div.pagination span {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+
+
+
+div.table-container {
+    overflow: auto;
+    margin: 0 -1em;
+    padding: 0 1em;
+}
+
+table {
+    margin: 1em 0;
+    width: 58em;
+    border-collapse: collapse;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr td {
+    border-top: 0.1em solid #eee;
+}
+
+table tr td {
+    padding: 0.5em 0.2em;
+}
+
+
+
+img.wide, div.post img {
+    border-radius: 0.2em;
+    margin: 1em 0;
+}
+
+
+
+div.content-head h2 {
+    margin: 0 0 0.3em 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+div.content-head div.meta {
+    text-align: center;
+    color: #888;
+    margin-bottom: 1em;
+}
+
+
+
+.ubuntu {
+    color: #dd4814;
+}
+
+.debian {
+    color: #d70751;
+}
+
+
+
+/* Styles for / */
+
+div.home-banner {
+    background: url("images/banner-2018-home.jpg");
+    background-position: bottom;
+
+    margin-top: -1.75em;
+    margin-bottom: 1.75em;
+    padding: 8em 0.4em;
+
+    text-align: center;
+    color: #fff;
+}
+
+div.home-banner div.when {
+    opacity: 0.8;
+    font-size: 1.2em;
+    margin: 0.4em;
+}
+
+div.home-banner h1 {
+    border: 0;
+    margin: 0.2em;
+    color: #fff;
+
+    font-size: 4em;
+}
+
+div.home-intro {
+    width: 85%;
+    margin: auto;
+
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.45em;
+}
+
+ul.home-communities {
+    text-align: center;
+}
+
+ul.home-communities li {
+    display: inline-block;
+    margin: 1.5em 0.75em;
+}
+
+
+
+/* Styles for /relatori */
+
+div.relatori {
+    text-align: center;
+}
+
+div.relatori div.relatore {
+    display: inline-block;
+    max-width: 12em;
+    width: 100%;
+
+    font-size: 1.2em;
+    padding: 0.25em;
+}
+
+div.relatori div.relatore a.avatar img {
+    border-radius: 0.2em;
+    margin-bottom: 0.4em;
+
+    height: 150px;
+    width: 150px;
+
+    border: 1px solid #ccc;
+    padding: 0.2em;
+}
+
+div.relatori div.relatore a.avatar:hover {
+    opacity: 1;
+}
+
+div.relatori div.relatore a.name {
+    display: block;
+}
+
+div.relatori div.relatore a.link img,
+div.relatori div.relatore div.spacer {
+    display: inline-block;
+    margin: 0.4em 0.2em;
+    height: 1.2em;
+
+    transition: 0.2s opacity ease-out;
+}
+
+div.relatori div.relatore a.link:hover img {
+    opacity: 0.6;
+}
+
+div.relatori div.relatore div.spacer {
+    width: 0;
+    margin: 0.4em 0;
+}
+
+div.relatore-details:after {
+    clear: both;
+
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+div.relatore-details div.avatar {
+    float: left;
+    padding-right: 2em;
+}
+
+div.relatore-details div.avatar img {
+    border-radius: 0.2em;
+    border: 1px solid #ccc;
+    padding: 0.2em;
+}
+
+div.relatore-details div.bio {
+    width: 100%;
+}
+
+p.relatore-quote {
+    font-size: 2em;
+    line-height: 1.3em;
+
+    color: #111;
+    margin: 1em;
+
+    font-style: italic;
+    text-align: center;
+}
+
+ul.relatore-talks span.extra {
+    color: #888;
+
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+
+/* Styles for /?/programma */
+
+ul.talks-relatori {
+    margin: 0;
+    padding: 0;
+}
+
+ul.talks-relatori li {
+    display: block;
+    list-style: none;
+}
+
+div.slides-download {
+    margin: 1em 0;
+}
+
+div.slides-download span {
+    display: block;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #888;
+}
+
+div.slides-download span:first-child {
+    margin-top: 0.3em;
+}
+
+
+
+/* Styles for /news */
+
+div.post.preview a.continue {
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+}
+
+
+
+/* Styles for /chat */
+
+.kiwiirc {
+    width: 100%;
+    height: 30em;
+    margin: 1em 0;
+
+    border: 0.2em solid #ccc;
+    border-radius: 0.3em;
+}
+
+
+
+/* Responsive stuff */
+
+@media all and (max-width: 60em) {
+
+    img.wide, div.post img {
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    header nav {
+        text-align: left;
+    }
+
+    header nav ul {
+        float: none !important;
+        display: inline-block;
+    }
+
+    ul.home-links.inline-list li {
+        padding: 0.2em 1.25em;
+    }
+
+    ul.home-links.inline-list li:first-child {
+        padding-left: 1.25em;
+    }
+
+    div.table-container {
+        padding: 0;
+    }
+
+    div.relatore-details div.avatar {
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    ul.relatore-talks span.extra {
+        display: block;
+        margin: 0;
+    }
+}

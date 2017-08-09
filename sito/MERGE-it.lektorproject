@@ -1,0 +1,7 @@
+[project]
+name = DUCC-IT
+url = https://merge-it.pietroalbini.org
+
+[packages]
+lektor-atom = 0.2
+lektor-minify = 1.2

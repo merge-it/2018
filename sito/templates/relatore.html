@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% from "macros.html" import show_list %}
+
+{% block title %}{{ this.name }}{% endblock %}
+{% block body %}
+    <div class="relatore-details">
+        <div class="avatar">
+            <img src="{{ this.attachments.get("avatar.jpg").thumbnail(200) }}">
+        </div>
+        <div class="bio">
+            <h1 class="page-title">{{ this.name }}</h1>
+
+            {{ this.bio }}
+
+            {% if this.website %}
+                <a href="{{ this.website }}" class="button">
+                    Sito web
+                </a>
+            {% endif %}
+            {% if this.twitter %}
+                <a href="https://twitter.com/{{ this.twitter }}" class="button">
+                    Profilo Twitter
+                </a>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if this.quote %}
+    </div>
+    <hr>
+    <div class="wrapper">
+
+        <p class="relatore-quote">
+            &ldquo;{{ this.quote }}&rdquo;
+        </p>
+
+    </div>
+    <hr>
+    <div class="wrapper">
+    {% endif %}
+
+    {% if this.interview %}
+        {{ this.interview }}
+    {% endif %}
+
+    <h2>Talk tenuti a DUCC-IT</h2>
+
+    <ul class="relatore-talks">
+    {% for page in [site.root] recursive %}
+        {% if page._model == "talk" and this._id in page.speaker %}
+            <li>
+                Edizione {{ page.parent.edition }}:
+                <a href="{{ page | url }}">{{ page.title }}</a>
+
+                {% if page.speaker|length > 1 %}
+                    {% set relatori = [] %}
+                    {% for relatore in page.speaker %}
+                        {% if relatore != this._id %}
+                            {{ "" if relatori.append(site.get("/relatori/"+relatore)) else "" }}
+                        {% endif %}
+                    {% endfor %}
+                    {% set sorted_relatori = relatori|sort(attribute="name") %}
+
+                    <span class="extra">
+                        Tenuto con
+                        {% call(relatore) show_list(sorted_relatori) %}
+                            <a href="{{ relatore | url }}">
+                                {{ relatore.name }}
+                            </a>
+                        {% endcall %}
+                    </span>
+                {% endif %}
+            </li>
+        {% endif %}
+        {{ loop(page.children) }}
+    {% endfor %}
+</ul>
+{% endblock %}

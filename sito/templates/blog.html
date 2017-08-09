@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% from "macros.html" import paginate, blog_post %}
+
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <h1 class="page-title">{{ this.title }}</h1>
+    <p>
+        {{ this.intro }}
+    </p>
+    <hr>
+    {% for child in this.pagination.items %}
+        {{ blog_post(child, this.content_kind, preview=true) }}
+        <hr>
+    {% endfor %}
+
+    {{ paginate(this.pagination) }}
+{% endblock %}

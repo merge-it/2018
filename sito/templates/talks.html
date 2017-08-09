@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+
+{% block title %}Programma {{ this.edition }}{% endblock %}
+{% block body %}
+    <h1 class="page-title">Programma di DUCC-IT {{ this.edition }}</h1>
+    {{ this.intro }}
+
+    {% set talks = {} %}
+
+    {% for talk in this.children.include_hidden(true)
+                       .include_undiscoverable(true) %}
+        {{ "" if talks.setdefault(talk.date, []) is not none else "" }}
+        {{ "" if talks[talk.date].append(talk) is not none else "" }}
+    {% endfor %}
+
+    {% for day, today_talks in talks | dictsort %}
+        <h2>{{ day | dateformat("full", locale="it") | capitalize }}</h2>
+
+        <div class="table-container">
+        <table>
+            <tr>
+                <td width="15%" class="text-center"><b>Orario</b></td>
+                <td width="25%" class="text-center"><b>Relatore</b></td>
+                <td><b>Titolo del talk</b></td>
+            </tr>
+            {% for talk in today_talks | sort(attribute="start") %}
+                {% if talk.speaker %}
+                    {% set relatori = [] %}
+                    {% for relatore in talk.speaker %}
+                        {% set found = site.get("/relatori/"+relatore) %}
+                        {% if found %}
+                            {{ "" if relatori.append(found) else "" }}
+                        {% else %}
+                            {{ "" if relatori.append(relatore) else "" }}
+                        {% endif %}
+                    {% endfor %}
+
+                    <tr>
+                        <td class="text-center">
+                            {{ talk.start.lstrip("0") }} - {{ talk.stop }}
+                        </td>
+                        <td class="text-center">
+                            <ul class="talks-relatori">
+                                {% for relatore in relatori %}
+                                    <li>
+                                        {% if relatore is string %}
+                                            {{ relatore }}
+                                        {% else %}
+                                            <a href="{{ relatore | url }}">
+                                                {{ relatore.name }}
+                                            </a>
+                                        {% endif %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                        <td>
+                            {% if not talk._hidden %}
+                                <a href="{{ talk | url }}">{{ talk.title }}</a>
+                            {% else %}
+                                {{ talk.title }}
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td class="text-center" colspan="3">
+                            <i>{{ talk.title }}</i>
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </table>
+        </div>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}Relatori{% endblock %}
+{% block body %}
+    <h1 class="page-title text-center">I relatori</h1>
+
+    <div class="relatori">
+        {% for child in this.children.order_by("name") %}
+            <div class="relatore">
+                {% set avatar = child.attachments.get("avatar.jpg") %}
+                {% if avatar %}
+                    <a href="{{ child | url }}" class="avatar">
+                        <img src="{{ avatar.thumbnail(150) | url }}" alt="{{ child.name }}">
+                    </a>
+                {% endif %}
+
+                <a class="name" href="{{ child | url }}">{{ child.name }}</a>
+
+                {% if child.twitter %}
+                    <a href="https://twitter.com/{{ child.twitter }}" class="link twitter">
+                        <img src="{{ '/static/fa/twitter.svg' | asseturl }}">
+                    </a>
+                {% endif %}
+                {% if child.website %}
+                    <a href="{{ child.website }}" class="link website">
+                        <img src="{{ '/static/fa/globe.svg' | asseturl }}">
+                    </a>
+                {% endif %}
+                <div class="spacer"></div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

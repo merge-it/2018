@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% from "macros.html" import show_list %}
+
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    {% set relatori = [] %}
+    {% for relatore in this.speaker %}
+        {{ "" if relatori.append(site.get("/relatori/"+relatore)) else "" }}
+    {% endfor %}
+    {% set sorted_relatori = relatori|sort(attribute="name") %}
+
+    <div class="content-head">
+        <h2>{{ this.title }}</h2>
+        <div class="meta">
+            Talk di
+            {% call(relatore) show_list(sorted_relatori, end=",") %}
+                <a href="{{ relatore | url }}">{{ relatore.name }}</a>
+            {% endcall %}
+            tenuto {{ this.date | dateformat("full", locale="it") }}.
+        </div>
+    </div>
+
+    {{ this.description }}
+
+    {% if this.attachments.get("slides.pdf") %}
+        <div class="text-center slides-download">
+            <a href="{{ this.attachments.get("slides.pdf") | url}}" class="button">
+                Scarica le slide
+            </a>
+            <div class="extra">
+                {% if this.slides_license %}
+                    <span>
+                        Le slide sono rilasciate sotto licenza
+                        {{ this.slides_license }}.
+                    </span>
+                {% endif %}
+                {% if this.slides_source %}
+                    <span>
+                        È disponibile il <a href="{{ this.slides_source }}">
+                        codice sorgente</a>.
+                    </span>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

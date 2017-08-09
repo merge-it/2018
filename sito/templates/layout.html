@@ -1,0 +1,59 @@
+{% from "macros.html" import menu_item %}
+
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>
+            {% block title %}Senza titolo{% endblock %} - MERGE-it
+        </title>
+
+        <link rel="shortcut icon" href="{{ '/static/images/favicon.png' | asseturl }}">
+
+        <link rel="stylesheet" href="{{ '/static/snowflake.min.css' | asseturl }}">
+        <link rel="stylesheet" href="{{ '/static/style.css' | asseturl }}">
+        <link rel="stylesheet" href="{{ '/static/fonts/dejavu-sans/include.css' | asseturl }}">
+
+        <link rel="alternate" href="{{ '/news@atom/news' | url }}"
+              title="Notizie da MERGE-it" type="application/atom+xml">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="wrapper">
+                    <ul class="inline-list left">
+                        <li class="brand">MERGE-it</li>
+                        {{ menu_item(this, '/', 'Home page') }}
+                        {{ menu_item(this, '/news', 'Notizie') }}
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="wrapper">
+            {% block body %}{% endblock %}
+            <footer class="footer">
+                <ul class="inline-list">
+                    <li>
+                        <a href="{{ '/news@atom/news' | url }}">
+                            Feed notizie
+                        </a>
+                    </li>
+                </ul>
+                <ul class="inline-list">
+                    <li>
+                        <span class="inline-block">Creative Commons</span>
+                        <span class="inline-block">Attribution Share Alike 4.0</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/merge-it/2018/tree/master/sito">
+                            Codice sorgente
+                        </a>
+                    </li>
+            </footer>
+        </div>
+
+        <script src="{{ '/static/script.js' }}"></script>
+    </body>
+</html>

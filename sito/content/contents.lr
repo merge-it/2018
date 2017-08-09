@@ -1,0 +1,34 @@
+title: 2018
+---
+body:
+
+</div>
+
+<div class="home-banner">
+    <div class="when">30 febbraio 2018, Università Bicocca, Milano</div>
+    <h1>MERGE-it</h1>
+</div>
+
+<div class="wrapper">
+
+<div class="home-intro">
+    <p>
+        In Italia esistono tante realtà che si occupano di cultura e libertà
+        digitali, sotto molti aspetti ed in molti modi. Lo scopo di
+        <b>MERGE-it</b> è riunirle insieme, per conoscersi e farsi conoscere,
+        discutere e dibattere, confrontarsi e misurarsi.
+    </p>
+
+    <p>
+        L'evento è aperto a tutti, la partecipazione è gratuita, e non è
+        necessario registrarsi.
+    </p>
+</div>
+
+<ul class="home-communities">
+    <li><img src="static/images/logos/wikimedia.png" alt="Wikimedia Italia" title="Wikimedia Italia"></li>
+    <li><img src="static/images/logos/openstreetmap.png" alt="OpenStreetMap Italia" title="OpenStreetMap Italia"></li>
+    <li><img src="static/images/logos/sod.png" alt="Spaghetti Open Data" title="Spaghetti Open Data"></li>
+    <li><img src="static/images/logos/ubuntuit.png" alt="Ubuntu-it" title="Ubuntu-it"></li>
+    <li><img src="static/images/logos/ils.png" alt="Italian Linux Society" title="Italian Linux Society"></li>
+</ul>
