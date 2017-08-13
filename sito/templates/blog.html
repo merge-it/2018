@@ -4,11 +4,19 @@
 
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-    <h1 class="page-title">{{ this.title }}</h1>
-    <p>
-        {{ this.intro }}
-    </p>
-    <hr>
+    </div>
+    <div class="big-title">
+        <div class="wrapper">
+            <h1>
+                {{ this.title }}
+                <a href="{{ this.feed_url | url }}">
+                    <img src="{{ '/static/fa/feed_orange.svg' }}" alt="Feed Atom">
+                </a>
+            </h1>
+        </div>
+    </div>
+    <div class="wrapper">
+
     {% for child in this.pagination.items %}
         {{ blog_post(child, this.content_kind, preview=true) }}
         <hr>

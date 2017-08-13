@@ -1,11 +1,7 @@
 _model: blog
 ---
-title: Notizie
+title: Ultime notizie
 ---
 content_kind: notizia
 ---
-intro:
-
-Qui puoi trovare tutte le ultime novità su MERGE-it! Le notizie sono anche
-disponibili in [formato atom](/news/atom.xml) da inserire nel tuo feed reader
-preferito, se desideri rimanere aggiornato.
+feed_url: /news@atom/news

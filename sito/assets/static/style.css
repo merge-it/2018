@@ -199,15 +199,35 @@ div.content-head div.meta {
 }
 
 
+div.big-title {
+    margin-bottom: 1.75em;
+    padding-bottom: 1.75em;
 
-.ubuntu {
-    color: #dd4814;
+    border-bottom: 0.1em solid #eee;
+    text-align: center;
 }
 
-.debian {
-    color: #d70751;
+div.big-title h1 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
 }
 
+div.big-title div.details {
+    margin-top: 0.2em;
+    color: #888;
+}
+
+div.big-title a img {
+    height: 0.7em;
+    margin: 0 0.4em;
+}
+
+
+
+div.blog-post-content {
+    text-align: justify;
+}
 
 
 /* Styles for / */

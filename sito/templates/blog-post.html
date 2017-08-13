@@ -4,5 +4,21 @@
 
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-    {{ blog_post(this, this.parent.content_kind) }}
+    </div>
+    <div class="big-title">
+        <div class="wrapper">
+            <h1>
+                {{ this.title }}
+            </h1>
+            <div class="details">
+                {{ this.parent.content_kind | capitalize }} del
+                {{ this.pub_date | dateformat("long", locale="it") }}
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+
+    <div class="blog-post-content">
+        {{ this.body }}
+    </div>
 {% endblock %}
