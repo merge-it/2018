@@ -19,7 +19,7 @@
         <link rel="alternate" href="{{ '/news@atom/news' | url }}"
               title="Notizie da MERGE-it" type="application/atom+xml">
     </head>
-    <body>
+    <body {% block body_extra %}{% endblock %}>
         <header>
             {% set latest = site.query("/news").first() %}
             {% if latest %}
@@ -31,8 +31,7 @@
             <nav>
                 <div class="wrapper">
                     <ul class="inline-list left">
-                        <li class="brand">MERGE-it</li>
-                        {{ menu_item(this, '/', 'Home page') }}
+                        {{ menu_item(this, '/', 'MERGE-it') }}
                         {{ menu_item(this, '/news', 'Notizie') }}
                     </ul>
                 </div>

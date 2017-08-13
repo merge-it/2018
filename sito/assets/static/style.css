@@ -48,25 +48,26 @@ header div.latest-news {
     background: #2c2c2c;
     box-shadow: inset 0 -0.2em 0.2em rgba(0, 0, 0, 0.2);
     color: #ccc;
-    padding: 0.3em;
+    padding: 0.4em;
+    font-size: 0.9em;
 }
 
 header div.latest-news a {
     display: inline-block;
     margin-left: 0.5em;
 
-    border-bottom: 0.1em dotted currentColor;
-    line-height: 1.2em;
-
     color: #fff;
+    transition: color 0.2s ease-out;
 }
 
 header div.latest-news a:hover {
-    opacity: 0.8;
+    opacity: 1;
+    color: #ccc;
 }
 
 header nav {
     background: linear-gradient(45deg, #349967, #0678bd);
+    box-shadow: 0 0.2em 0.2em rgba(0, 0, 0, 0.2);
     overflow-y: auto;
 }
 
@@ -98,11 +99,6 @@ header nav ul.inline-list li {
     padding: 0;
 }
 
-header nav ul li.brand {
-    padding: 0.8em 1.5em;
-    color: #fff;
-}
-
 header nav ul li a {
     display: block;
     color: #fff;
@@ -118,6 +114,21 @@ header nav ul li a:hover {
 header nav ul li a.active {
     opacity: 1;
     background: rgba(255, 255, 255, 0.15);
+}
+
+
+
+body.home header nav {
+    background: transparent;
+    box-shadow: none;
+}
+
+body.home header nav ul li a {
+    opacity: 1;
+}
+
+body.home header nav ul li a.active {
+    background: transparent;
 }
 
 
@@ -202,12 +213,13 @@ div.content-head div.meta {
 /* Styles for / */
 
 div.home-banner {
-    background: url("images/banner-2018-home.jpg");
+    background: url("images/banner-2018-home.jpg"), #51553a;
     background-position: bottom;
+    box-shadow: inset 0 -0.3em 0.3em rgba(0, 0, 0, 0.1);
 
-    margin-top: -1.75em;
+    margin-top: -4.85em;
     margin-bottom: 1.75em;
-    padding: 8em 0.4em;
+    padding: 11em 0.4em 9em 0.4em;
 
     text-align: center;
     color: #fff;
