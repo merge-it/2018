@@ -7,7 +7,7 @@ DIR_BUILD = build
 BIN_LEKTOR = lektor
 
 SNOWFLAKE_COMPONENTS = typography inline-list footer button
-SNOWFLAKE_COLOR = \#0678bd
+SNOWFLAKE_COLOR = \#1d8892
 
 
 .PHONY: build server clean
