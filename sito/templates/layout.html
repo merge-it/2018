@@ -21,6 +21,13 @@
     </head>
     <body>
         <header>
+            {% set latest = site.query("/news").first() %}
+            {% if latest %}
+                <div class="latest-news">
+                    Ultima notizia:
+                    <a href="{{ latest | url }}">{{ latest.title }}</a>
+                </div>
+            {% endif %}
             <nav>
                 <div class="wrapper">
                     <ul class="inline-list left">

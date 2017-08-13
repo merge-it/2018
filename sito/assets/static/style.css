@@ -44,6 +44,27 @@ header {
     margin-bottom: 1.75em;
 }
 
+header div.latest-news {
+    background: #2c2c2c;
+    box-shadow: inset 0 -0.2em 0.2em rgba(0, 0, 0, 0.2);
+    color: #ccc;
+    padding: 0.3em;
+}
+
+header div.latest-news a {
+    display: inline-block;
+    margin-left: 0.5em;
+
+    border-bottom: 0.1em dotted currentColor;
+    line-height: 1.2em;
+
+    color: #fff;
+}
+
+header div.latest-news a:hover {
+    opacity: 0.8;
+}
+
 header nav {
     background: linear-gradient(45deg, #349967, #0678bd);
     overflow-y: auto;
