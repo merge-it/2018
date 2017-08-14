@@ -26,18 +26,28 @@ jQuery(function ($) {
     }());
 
     // --------------------------------------------------------------------
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    // Smooth scrolling, requires jump.js
     // --------------------------------------------------------------------
 
-    (function () {
-        $('a.page-scroll').on('click', function (e) {
-            e.preventDefault();
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop : $($anchor.attr('href')).offset().top
-            }, 1500, 'easeInOutExpo');
-        });
-    }());
+    var elements = document.querySelectorAll('ul.navbar-nav li a');
+    for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', function(e) {
+            // Don't execute the animation if the user is using a browser not
+            // supporting the API (Opera Mini and IE9)
+            if (window.requestAnimationFrame) {
+
+                // Do the nice scrolling only if we're in the current page
+                if (this.pathname == document.location.pathname) {
+                    e.preventDefault();
+
+                    Jump(this.hash, {
+                        duration: 1500,
+                    });
+                }
+            }
+        }.bind(element));
+    }
 
     // --------------------------------------------------------------------
     // Closes the Responsive Menu on Menu Item Click
