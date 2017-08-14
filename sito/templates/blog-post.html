@@ -4,21 +4,22 @@
 
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-    </div>
-    <div class="big-title">
-        <div class="wrapper">
-            <h1>
-                {{ this.title }}
-            </h1>
-            <div class="details">
-                {{ this.parent.content_kind | capitalize }} del
-                {{ this.pub_date | dateformat("long", locale="it") }}
-            </div>
-        </div>
-    </div>
-    <div class="wrapper">
 
-    <div class="blog-post-content">
-        {{ this.body }}
-    </div>
+<br/>
+<section class="section-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="page-header">
+					<h1>{{ this.title }} <small class="pull-right">{{ this.pub_date | dateformat("long", locale="it") }}</small></h1>
+				</div>
+
+				<div class="blog-post-content">
+					{{ this.body }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 {% endblock %}
