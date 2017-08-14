@@ -4,23 +4,29 @@
 
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-    </div>
-    <div class="big-title">
-        <div class="wrapper">
-            <h1>
-                {{ this.title }}
-                <a href="{{ this.feed_url | url }}">
-                    <img src="{{ '/static/fa/feed_orange.svg' }}" alt="Feed Atom">
-                </a>
-            </h1>
-        </div>
-    </div>
-    <div class="wrapper">
 
-    {% for child in this.pagination.items %}
-        {{ blog_post(child, this.content_kind, preview=true) }}
-        <hr>
-    {% endfor %}
+<br/>
+<section class="section-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="page-header">
+					<h1>{{ this.title }} <small><a href="{{ this.feed_url | url }}"><img class="pull-right" style="width:5%" src="{{ '/static/fa/feed_orange.svg' }}" alt="Feed Atom"></a></small></h1>
+				</div>
 
-    {{ paginate(this.pagination) }}
+				{% for child in this.pagination.items %}
+					{{ blog_post(child, this.content_kind, preview=true) }}
+					<hr>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 text-center">
+			    {{ paginate(this.pagination) }}
+		    </div>
+	    </div>
+	</div>
+</section>
+
 {% endblock %}

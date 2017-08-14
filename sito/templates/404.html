@@ -1,11 +1,22 @@
 {% extends "layout.html" %}
 
 {% block title %}Pagina non trovata{% endblock %}
+
 {% block body %}
-    <div class="text-center">
-        <h2>Pagina non trovata</h2>
-        <a href="{{ '/' | url }}" class="button">
-            Torna alla home page
-        </a>
-    </div>
+
+<br/>
+<section class="section-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="page-header">
+					<h1>Pagina non Trovata</h1>
+				</div>
+
+				<h2 class="pull-right"><a href="{{ '/' | url }}">Clicca qui per tornare alla home page</a></h2>
+			</div>
+		</div>
+	</div>
+</section>
+
 {% endblock %}

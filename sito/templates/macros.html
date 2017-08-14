@@ -37,18 +37,18 @@
 
 {% macro blog_post(post, content_kind, preview=false) %}
     <div class="post {% if preview %}preview{% endif %}">
-        <div class="content-head">
+        <div>
             <h2>
                 {% if preview %}
                     <a href="{{ post | url }}">{{ post.title }}</a>
                 {% else %}
                     {{ post.title }}
                 {% endif %}
+
+                <small class="pull-right">
+		            {{ post.pub_date | dateformat("long", locale="it") }}
+		        </small>
             </h2>
-            <div class="meta">
-                {{ content_kind | capitalize }} del
-                {{ post.pub_date | dateformat("long", locale="it") }}
-            </div>
         </div>
 
         {{ post.body }}
