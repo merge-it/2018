@@ -18,12 +18,6 @@
     </head>
     <body {% block body_extra %}{% endblock %}>
         <div id="main-wrapper">
-            <div id="preloader">
-                <div id="status">
-                    <div class="status-mes"></div>
-                </div>
-            </div>
-
             <header class="header">
                 {% set latest = site.query("/news").first() %}
                 {% if latest %}
