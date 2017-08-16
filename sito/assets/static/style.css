@@ -319,8 +319,12 @@ header div.latest-news a:hover {
     transition         : all .5s ease-in-out;
     }
 
-.sticky-nav .nav li a {
-    color : #0e1555;
+.home .main-menu.sticky-nav .nav li a {
+    color: #000;
+    }
+
+    .home .main-menu.sticky-nav .nav li a:hover {
+        color: #828F41;
     }
 
 .sticky-nav .navbar-toggle .icon-bar{
