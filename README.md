@@ -2,10 +2,9 @@
 
 Stiamo tentando di organizzare un evento che raccolga le diverse realtà open* in Italia.
 
-* Location: Milano, Università Bicocca.
-* Date: un qualche weekend tra febbraio e giugno 2018.
+* Data: fine marzo 2018
 
-Tutto il resto è provvisorio, indefinito o aleatorio: il nome, i partecipanti, i contenuti, le modalità...
+Al momento tutto è provvisorio, indefinito o aleatorio: la data, la sede, i partecipanti, i contenuti, le modalità...
 
 Per maggiori informazioni su questo stravagante progetto, manda una mail a bob@linux.it
 
