@@ -6,11 +6,9 @@ body:
 
 <div class="jumbotron text-center">
     <div class="content">
-    	<!-- TODO: aggiornare data -->
-        <div class="event-date">24 MARZO 2017, UNIVERSITÀ BICOCCA, MILANO</div>
+        <div class="event-date">MARZO 2018</div>
         <h1>MERGE-it</h1>
-        <p class="lead">La cultura libera si incontra.</p>
-        <p class="lead">WARNING: PAGINA TEMPORANEA! NON PRENDERE PER BUONO NULLA DI QUEL CHE C'È SCRITTO!</p>
+        <p class="lead">La community si incontra.</p>
         <a href="#section-intro" class="btn btn-default btn-lg page-scroll">unisciti a noi</a>
     </div>
 </div>
@@ -39,7 +37,7 @@ body:
                 </div>
             </div>
         </div>
-        
+
         <div class="row">
         	<div class="col-md-12 text-center">
 				<p class="lead">
@@ -73,27 +71,32 @@ body:
 			    			</th>
 			    			<td rowspan="2">
 				    			<div class="room-overlay">
-					    			<img src="static/images/logos/wikimedia.png"><br/>Wikimedia Italia
+					    			<img src="static/images/logos/wikimedia.png">
+                                    Wikimedia Italia
 			    				</div>
 		    				</td>
 			    			<td rowspan="2">
 			    				<div class="room-overlay">
-					    			<img src="static/images/logos/openstreetmap.png"><br/>OpenStreetMap Italia
+					    			<img src="static/images/logos/openstreetmap.png">
+                                    OpenStreetMap Italia
 				    			</div>
 			    			</td>
 			    			<td rowspan="2">
 			    				<div class="room-overlay">
-					    			<img src="static/images/logos/sod.png"><br/>Spaghetti Open Data
+					    			<img src="static/images/logos/sod.png">
+                                    Spaghetti Open Data
 				    			</div>
 			    			</td>
 			    			<td>
 			    				<div class="room-overlay">
-				    				<img src="static/images/logos/ubuntuit.png"><br/>Ubuntu-IT
+				    				<img src="static/images/logos/ubuntuit.png">
+                                    Ubuntu-IT
 			    				</div>
 		    				</td>
 			    			<td rowspan="2">
 			    				<div class="room-overlay">
-					    			<img src="static/images/logos/you.png"><br/><br/><strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)? Contattaci!
+					    			<img src="static/images/logos/you.png">
+                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)? <a href="#section-contacts" class="page-scroll">Contattaci!</a>
 				    			</div>
 			    			</td>
 			    		</tr>
@@ -105,118 +108,13 @@ body:
 			    			</th>
 			    			<td>
 			    				<div class="room-overlay">
-					    			<img src="static/images/logos/ils.png"><br/>Italian Linux Society
+					    			<img src="static/images/logos/ils.png">
+                                    Italian Linux Society
 				    			</div>
 			    			</td>
 			    		</tr>
 		    		</tbody>
 	        	</table>
-
-				<!--
-			
-				STUB, DA ULTIMARE, PER PROGRAMMA DEI CONTENUTI
-			
-	        	<table class="table schedule">
-	        		<thead>
-			    		<tr>
-			    			<th width="10%">&nbsp;</th>
-			    			<th width="18%">Aula 1</th>
-			    			<th width="18%">Aula 2</th>
-			    			<th width="18%">Aula 3</th>
-			    			<th width="18%">Aula 4</th>
-			    			<th width="18%">Aula 5</th>
-			    		</tr>
-		    		</thead>
-		    		<tbody>
-			    		<tr>
-			    			<th>
-				    			<div class="room-contents">
-				    				<div class="hour-10">
-				    					09:00
-				    				</div>
-				    				<div class="hour-10">
-				    					10:00
-				    				</div>
-				    				<div class="hour-10">
-				    					11:00
-				    				</div>
-				    				<div class="hour-10">
-				    					12:00
-				    				</div>
-				    				<div class="hour-10">
-				    					13:00
-				    				</div>
-				    			</div>
-			    			</th>
-			    			<td rowspan="2">
-				    			<div class="room-contents" style="background-image: url(img/wikimedia.png)">
-				    				<div class="hour-10">
-				    					09:00
-				    				</div>
-				    				<div class="hour-10">
-				    					10:00
-				    				</div>
-				    				<div class="hour-10">
-				    					11:00
-				    				</div>
-				    				<div class="hour-10">
-				    					12:00
-				    				</div>
-				    				<div class="hour-10">
-				    					13:00
-				    				</div>
-			    				</div>
-		    				</td>
-			    			<td rowspan="2">
-			    				<div class="room-overlay">
-					    			<img src="img/openstreetmap.png"><br/>OpenStreetMap Italia
-				    			</div>
-			    			</td>
-			    			<td rowspan="2">
-			    				<div class="room-overlay">
-					    			<img src="img/sod.png"><br/>Spaghetti Open Data
-				    			</div>
-			    			</td>
-			    			<td>
-			    				<div class="room-overlay">
-				    				<img src="img/ubuntuit.png"><br/>Ubuntu-IT
-			    				</div>
-		    				</td>
-			    			<td rowspan="2">
-			    				<div class="room-overlay">
-					    			<img src="img/you.png"><br/>TU!<br/>Fai parte di una community nazionale e vuoi tenere una sessione (mezza giornata o una giornata intera)? Contattaci!
-				    			</div>
-			    			</td>
-			    		</tr>
-			    		<tr>
-			    			<th>
-			    				<div class="room-contents">
-				    				<div class="hour-1">
-				    					14:00
-				    				</div>
-				    				<div class="hour-1">
-				    					15:00
-				    				</div>
-				    				<div class="hour-1">
-				    					16:00
-				    				</div>
-				    				<div class="hour-1">
-				    					17:00
-				    				</div>
-				    				<div class="hour-1">
-				    					18:00
-				    				</div>
-			    				</div>
-			    			</th>
-			    			<td>
-			    				<div class="room-overlay">
-					    			<img src="img/ils.png"><br/>Italian Linux Society
-				    			</div>
-			    			</td>
-			    		</tr>
-		    		</tbody>
-	        	</table>
-	        	-->
         	</div>
 
         	<div class="col-md-12 visible-xs-block">
@@ -237,7 +135,8 @@ body:
 			    			</th>
 			    			<td colspan="2">
 				    			<div class="room-overlay">
-					    			<img src="img/wikimedia.png"><br/>Wikimedia Italia
+					    			<img src="img/wikimedia.png">
+                                    Wikimedia Italia
 			    				</div>
 		    				</td>
 	    				</tr>
@@ -249,7 +148,8 @@ body:
 			    			</th>
 			    			<td colspan="2">
 			    				<div class="room-overlay">
-					    			<img src="img/openstreetmap.png"><br/>OpenStreetMap Italia
+					    			<img src="img/openstreetmap.png">
+                                    OpenStreetMap Italia
 				    			</div>
 			    			</td>
 		    			</tr>
@@ -261,7 +161,8 @@ body:
 			    			</th>
 			    			<td colspan="2">
 			    				<div class="room-overlay">
-					    			<img src="img/sod.png"><br/>Spaghetti Open Data
+					    			<img src="img/sod.png">
+                                    Spaghetti Open Data
 				    			</div>
 			    			</td>
 		    			</tr>
@@ -273,12 +174,14 @@ body:
 			    			</th>
 			    			<td>
 			    				<div class="room-overlay">
-				    				<img src="img/ubuntuit.png"><br/>Ubuntu-IT
+				    				<img src="img/ubuntuit.png">
+                                    Ubuntu-IT
 			    				</div>
 		    				</td>
 			    			<td>
 			    				<div class="room-overlay">
-					    			<img src="img/ils.png"><br/>Italian Linux Society
+					    			<img src="img/ils.png">
+                                    Italian Linux Society
 				    			</div>
 			    			</td>
 		    			</tr>
@@ -290,7 +193,8 @@ body:
 			    			</th>
 			    			<td colspan="2">
 			    				<div class="room-overlay">
-					    			<img src="img/you.png"><br/><br/><strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)? Contattaci!
+					    			<img src="img/you.png">
+                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)? <a href="#section-contacts" class="page-scroll">Contattaci!</a>
 				    			</div>
 			    			</td>
 			    		</tr>
@@ -316,46 +220,14 @@ body:
 					Sostieni la cultura libera! Sostieni MERGE-it!
 				</p>
 				<p>
-					Stiamo cercando partners che ci aiutino a comunicare l'evento, e a supportarlo economicamente. Contattaci per ulteriori dettagli.
+					Stiamo cercando partners che ci aiutino a comunicare l'evento, e a supportarlo economicamente. <a href="#section-contacts" class="page-scroll">Contattaci per ulteriori dettagli</a>.
 				</p>
         	</div>
         </div>
     </div>
 </section>
 
-<section id="section-venue" class="section-wrapper gray-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h1>LA SEDE</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-        	<div class="col-md-12 text-center">
-                <p>Saremo ospitati dall'Università Bicocca di Milano.</p>
-                <p>Il posto può essere raggiunto:</p>
-                <ul>
-                	<li>in auto: [TODO informazioni]</li>
-                	<li>in treno: [TODO informazioni]</li>
-                	<li>in aereo: [TODO informazioni]</li>
-                </ul>
-                <br/>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <iframe width="100%" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=9.201897382736208%2C45.51227163443485%2C9.21981453895569%2C45.51916549457879&amp;layer=transportmap&amp;marker=45.515718670074484%2C9.210855960845947" style="border: 1px solid black"></iframe><br/>
-            	<small><a target="_blank" href="http://www.openstreetmap.org/?mlat=45.51572&amp;mlon=9.21086#map=17/45.51572/9.21086">Ingrandisci la Mappa</a></small>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="section-newsletter" class="section-wrapper">
+<section id="section-newsletter" class="section-wrapper gray-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -375,7 +247,7 @@ body:
     </div>
 </section>
 
-<section id="section-contacts" class="section-wrapper gray-bg">
+<section id="section-contacts" class="section-wrapper">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -384,15 +256,27 @@ body:
                 </div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-12 text-center">
                 <p class="lead">
                 	Hai domande? Vuoi partecipare? Non esitare a scriverci, chiamarci o twittarci!
                 </p>
-                <p>
-                	[TODO: icone social e contatti]
-                </p>
+
+                <div class="direct-contacts">
+                    <span>
+                        <img src="static/fa/globe.svg"> merge-it.net
+                    </span>
+                    <span>
+                        <img src="static/fa/twitter.svg"> @Merge_IT
+                    </span>
+                    <span>
+                        <img src="static/fa/envelope-o.svg"> info@merge-it.net
+                    </span>
+                    <span>
+                        <img src="static/fa/phone.svg"> +39 348.7254214
+                    </span>
+                </div>
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin : 0 0 15px;
-    color  : #0e1555;
+    color  : #0577bd;
     }
 
 h1 {
@@ -55,7 +55,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #828F41;
+    color              : #e24516;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -105,21 +105,21 @@ ul {
 
 .btn-lg {
     font-size : 18px;
-    padding   : 15px 30px
+    padding   : 15px 20px
     }
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #828F41;
-    border-color     : #828F41;
+    background-color : #339966;
+    border-color     : #339966;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
     background   : transparent;
-    color        : #828F41;
-    border-color : #828F41;
+    color        : #339966;
+    border-color : #339966;
     }
 
 /*btn-default*/
@@ -212,6 +212,10 @@ header div.latest-news a:hover {
     padding : 0;
     height  : auto;
     margin  : 5px 0 !important;
+    }
+
+.navbar-brand img {
+    width: 100px;
     }
 
 @media (max-width : 768px) {
@@ -311,16 +315,16 @@ header div.latest-news a:hover {
     left               : 0;
     top                : 0;
     z-index            : 999;
-    background         : #ffffff !important;
+    background: #0577bd;
+    background: -moz-linear-gradient(left, #0577bd 0%, #339966 50%, #e24516 100%);
+    background: -webkit-linear-gradient(left, #0577bd 0%,#339966 50%,#e24516 100%);
+    background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0577bd', endColorstr='#e24516',GradientType=1 );
     padding            : 5px 0;
     box-shadow         : 0 2px 5px rgba(0, 0, 0, .1);
     -webkit-transition : all .5s ease-in-out;
     -moz-transition    : all .5s ease-in-out;
     transition         : all .5s ease-in-out;
-    }
-
-.sticky-nav .nav li a {
-    color : #0e1555;
     }
 
 .sticky-nav .navbar-toggle .icon-bar{
@@ -339,7 +343,6 @@ header div.latest-news a:hover {
  *-------------------*/
 
 .jumbotron {
-    background            : url("images/img-jumbotron-bg.jpg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -351,6 +354,11 @@ header div.latest-news a:hover {
     background-repeat     : no-repeat;
     background-position   : center center;
     overflow              : hidden;
+    background: #0577bd;
+    background: -moz-linear-gradient(left, #0577bd 0%, #339966 50%, #e24516 100%);
+    background: -webkit-linear-gradient(left, #0577bd 0%,#339966 50%,#e24516 100%);
+    background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0577bd', endColorstr='#e24516',GradientType=1 );
     }
 
 .jumbotron .content {
@@ -387,7 +395,7 @@ header div.latest-news a:hover {
 .jumbotron .btn {
     margin-top : 40px;
     }
-    
+
 .jumbotron p {
 	font-weight: 400;
 }
@@ -550,8 +558,9 @@ header div.latest-news a:hover {
 
 .section-ajenda .schedule tbody td img {
  	width: 70%;
+    margin: 0 20px 20px 20px;
 }
- 
+
 .section-ajenda .session {
     padding       : 15px 0;
     border-left   : 1px solid #eeeeee;
@@ -579,6 +588,12 @@ header div.latest-news a:hover {
     display     : block;
     line-height : 1;
     }
+
+@media (max-width : 766px) {
+    .section-ajenda .schedule tbody td img {
+        display: none;
+    }
+}
 
 /* --------------------------
  * Pricing Table
@@ -653,7 +668,7 @@ header div.latest-news a:hover {
     }
 
 /* --------------------------
- * Client Logo 
+ * Client Logo
  *---------------------------*/
 
 .client-logo a img {
@@ -672,6 +687,32 @@ header div.latest-news a:hover {
 @media (max-width : 992px) {
     .client-logo .section-margin {
         margin-bottom : 30px;
+        }
+    }
+
+/*---------------------------
+ * Section Contacts
+ *---------------------------*/
+#section-contacts img {
+    width: 50px;
+    padding-right: 10px;
+    }
+
+.direct-contacts {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    }
+
+.direct-contacts span {
+    flex: 0 1 auto;
+    }
+
+@media (max-width : 600px) {
+    .direct-contacts {
+        flex-flow: column wrap;
+        align-items: flex-end;
         }
     }
 

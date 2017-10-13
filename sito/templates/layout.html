@@ -11,7 +11,6 @@
         <link rel="shortcut icon" href="{{ '/static/images/favicon.png' | asseturl }}">
 
         <link rel="stylesheet" href="{{ '/static/bootstrap.min.css' | asseturl }}">
-        <link rel="stylesheet" href="{{ '/static/font-awesome.min.css' | asseturl }}">
         <link rel="stylesheet" href="{{ '/static/style.css' | asseturl }}">
 
         <link rel="alternate" href="{{ '/news@atom/news' | url }}" title="MERGE-it" type="application/atom+xml">
@@ -23,8 +22,9 @@
                     <div class="status-mes"></div>
                 </div>
             </div>
-            
+
             <header class="header">
+                <!--
                 {% set latest = site.query("/news").first() %}
                 {% if latest %}
                 <div class="latest-news">
@@ -32,6 +32,7 @@
                     <a href="{{ latest | url }}">{{ latest.title }}</a>
                 </div>
                 {% endif %}
+                -->
                 <nav class="navbar main-menu" role="navigation">
                     <div class="container">
                         <div class="navbar-header">
@@ -49,8 +50,6 @@
                                 <li class="hidden"><a href="{{ '/index.html#page-top' | url }}"></a></li>
                                 <li><a href="{{ '/index.html#section-intro' | url }}">Info</a></li>
                                 <li><a href="{{ '/index.html#section-ajenda' | url }}">Programma</a></li>
-                                <li><a href="{{ '/index.html#section-partner' | url }}">Partners</a></li>
-                                <li><a href="{{ '/index.html#section-venue' | url }}">Sede</a></li>
                                 <li><a href="{{ '/index.html#section-contacts' | url }}">Contatti</a></li>
                             </ul>
                         </div>
