@@ -8,7 +8,7 @@ body:
     <div class="content">
         <div class="event-date">MARZO 2018</div>
         <h1>MERGE-it</h1>
-        <p class="lead">La community si incontra.</p>
+        <p class="lead">La Community si incontra.</p>
         <a href="#section-intro" class="btn btn-default btn-lg page-scroll">unisciti a noi</a>
     </div>
 </div>
@@ -33,7 +33,7 @@ body:
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h1>PROGRAMMA</h1>
+                    <h2>PROGRAMMA</h2>
                 </div>
             </div>
         </div>
@@ -200,28 +200,6 @@ body:
 			    		</tr>
 		    		</tbody>
 	        	</table>
-        	</div>
-        </div>
-    </div>
-</section>
-
-<section id="section-partner" class="section-wrapper client-logo">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h1>PARTNERS</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-12 text-center">
-				<p class="lead">
-					Sostieni la cultura libera! Sostieni MERGE-it!
-				</p>
-				<p>
-					Stiamo cercando partners che ci aiutino a comunicare l'evento, e a supportarlo economicamente. <a href="#section-contacts" class="page-scroll">Contattaci per ulteriori dettagli</a>.
-				</p>
         	</div>
         </div>
     </div>

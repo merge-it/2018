@@ -13,7 +13,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin : 0 0 15px;
-    color  : #0577bd;
+    color  : #000;
+    }
+
+h2::before {
+    content: ' ';
+    background: linear-gradient(90deg,#0577bd 0,#0577bd 30%,transparent 30%,transparent 35%,#339966 35%,#339966 65%,transparent 65%,transparent 70%,#e24516 70%,#e24516 100%) left bottom no-repeat;
+    width: 40px;
+    height: 5px;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 16px;
     }
 
 h1 {
