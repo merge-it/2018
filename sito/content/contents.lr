@@ -235,10 +235,13 @@ body:
                     <h2>RESTA AGGIORNATO</h2>
                 </div>
                 <!-- TODO: registrazione contatti -->
-                <form id="contactForm" class="subscribe-form form-inline" action="register.php" method="POST">
+                <form id="contactForm" class="subscribe-form form-inline" action="static/register.php" method="POST">
                     <div class="form-group">
                         <label for="email" class="sr-only">Email</label>
                         <input type="email" class="form-control input-lg" required="" id="email" name="email" placeholder="Indirizzo Mail">
+                        <noscript>
+                            <input type="hidden" name="mode" value="nojs">
+                        </noscript>
                     </div>
                     <button type="submit" class="btn btn-primary btn-lg">ISCRIVITI ALLA NEWSLETTER</button>
                 </form>

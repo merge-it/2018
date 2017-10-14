@@ -53,4 +53,32 @@ jQuery(function ($) {
         });
     }());
 
+    $('#contactForm').submit(function(e) {
+        e.preventDefault();
+        var button = $(this).find('button[type=submit]');
+        button.prop('disabled', true);
+
+        $.ajax({
+            url: 'static/register.php',
+            method: 'POST',
+            data: {
+                email: $(this).find('input[name=email]').val(),
+                mode: 'js'
+            },
+            success: function(data) {
+                if (data == 'ok') {
+                    button.text('Iscritto!');
+                }
+                else {
+                    button.text('Errore!');
+                    button.prop('disabled', false);
+                }
+            },
+            error: function() {
+                button.text('Errore!');
+                button.prop('disabled', false);
+            }
+        });
+    });
+
 }); // JQuery end
