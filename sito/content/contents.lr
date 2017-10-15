@@ -21,7 +21,7 @@ body:
                     In Italia esistono tante realtà che si occupano di cultura e libertà digitali, sotto molti aspetti ed in molti modi. Scopo di <strong>MERGE-it</strong> è riunirle insieme, per conoscersi e farsi conoscere, discutere e dibattere, confrontarsi e misurarsi.
                 </p>
                 <p class="lead">
-                	L'evento è aperto a tutti, la partecipazione gratuita, e non è necessario registrarsi.
+                    L'evento è aperto a tutti, la partecipazione gratuita, e non è necessario registrarsi.
                 </p>
             </div>
         </div>
@@ -40,167 +40,167 @@ body:
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
-				<p class="lead">
-					Il programma è in fase di definizione.
-				</p>
-				<p>
-					Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community. <a href="#section-newsletter" class="page-scroll">Iscriviti alla newsletter</a> per ricevere aggiornamenti sullo stato di avanzamento!
-				</p>
-        	</div>
+                <p class="lead">
+                    Il programma è in fase di definizione.
+                </p>
+                <p>
+                    Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community. <a href="#section-newsletter" class="page-scroll">Iscriviti alla newsletter</a> per ricevere aggiornamenti sullo stato di avanzamento!
+                </p>
+            </div>
         </div>
 
         <div class="row">
-        	<div class="col-md-12 hidden-xs">
-	        	<table class="table schedule">
-	        		<thead>
-			    		<tr>
-			    			<th width="10%">&nbsp;</th>
-			    			<th width="18%">Aula 1</th>
-			    			<th width="18%">Aula 2</th>
-			    			<th width="18%">Aula 3</th>
-			    			<th width="18%">Aula 4</th>
-			    			<th width="18%">Aula 5</th>
-			    		</tr>
-		    		</thead>
-		    		<tbody>
-			    		<tr>
-			    			<th>
-				    			<div class="room-contents">
-									Mattino
-				    			</div>
-			    			</th>
-			    			<td rowspan="2">
-				    			<div class="room-overlay">
-					    			<img src="static/images/logos/wikimedia.png">
+            <div class="col-md-12 hidden-xs">
+                <table class="table schedule">
+                    <thead>
+                        <tr>
+                            <th width="10%">&nbsp;</th>
+                            <th width="18%">Aula 1</th>
+                            <th width="18%">Aula 2</th>
+                            <th width="18%">Aula 3</th>
+                            <th width="18%">Aula 4</th>
+                            <th width="18%">Aula 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Mattino
+                                </div>
+                            </th>
+                            <td rowspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/wikimedia.png">
                                     Wikimedia Italia
-			    				</div>
-		    				</td>
-			    			<td rowspan="2">
-			    				<div class="room-overlay">
-					    			<img src="static/images/logos/openstreetmap.png">
+                                </div>
+                            </td>
+                            <td rowspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/openstreetmap.png">
                                     OpenStreetMap Italia
-				    			</div>
-			    			</td>
-			    			<td rowspan="2">
-			    				<div class="room-overlay">
-					    			<img src="static/images/logos/sod.png">
+                                </div>
+                            </td>
+                            <td rowspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/sod.png">
                                     Spaghetti Open Data
-				    			</div>
-			    			</td>
-			    			<td>
-			    				<div class="room-overlay">
-				    				<img src="static/images/logos/ubuntuit.png">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/ubuntuit.png">
                                     Ubuntu-IT
-			    				</div>
-		    				</td>
-			    			<td rowspan="2">
-			    				<div class="room-overlay">
-					    			<img src="static/images/logos/you.png">
-                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)? <a href="#section-contacts" class="page-scroll">Contattaci!</a>
-				    			</div>
-			    			</td>
-			    		</tr>
-			    		<tr>
-			    			<th>
-			    				<div class="room-contents">
-				    				Pomeriggio
-			    				</div>
-			    			</th>
-			    			<td>
-			    				<div class="room-overlay">
-					    			<img src="static/images/logos/ils.png">
+                                </div>
+                            </td>
+                            <td rowspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/you.png">
+                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)?<br><a href="/invito" class="page-scroll">Leggi il nostro invito!</a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Pomeriggio
+                                </div>
+                            </th>
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/ils.png">
                                     Italian Linux Society
-				    			</div>
-			    			</td>
-			    		</tr>
-		    		</tbody>
-	        	</table>
-        	</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-        	<div class="col-md-12 visible-xs-block">
-	        	<table class="table schedule">
-	        		<thead>
-			    		<tr>
-			    			<th width="30%">&nbsp;</th>
-			    			<th width="35%">Mattino</th>
-			    			<th width="35%">Pomeriggio</th>
-			    		</tr>
-		    		</thead>
-		    		<tbody>
-			    		<tr>
-			    			<th>
-				    			<div class="room-contents">
-									Aula 1
-				    			</div>
-			    			</th>
-			    			<td colspan="2">
-				    			<div class="room-overlay">
-					    			<img src="img/wikimedia.png">
+            <div class="col-md-12 visible-xs-block">
+                <table class="table schedule">
+                    <thead>
+                        <tr>
+                            <th width="30%">&nbsp;</th>
+                            <th width="35%">Mattino</th>
+                            <th width="35%">Pomeriggio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Aula 1
+                                </div>
+                            </th>
+                            <td colspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/wikimedia.png">
                                     Wikimedia Italia
-			    				</div>
-		    				</td>
-	    				</tr>
-	    				<tr>
-			    			<th>
-				    			<div class="room-contents">
-									Aula 2
-				    			</div>
-			    			</th>
-			    			<td colspan="2">
-			    				<div class="room-overlay">
-					    			<img src="img/openstreetmap.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Aula 2
+                                </div>
+                            </th>
+                            <td colspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/openstreetmap.png">
                                     OpenStreetMap Italia
-				    			</div>
-			    			</td>
-		    			</tr>
-		    			<tr>
-			    			<th>
-				    			<div class="room-contents">
-									Aula 3
-				    			</div>
-			    			</th>
-			    			<td colspan="2">
-			    				<div class="room-overlay">
-					    			<img src="img/sod.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Aula 3
+                                </div>
+                            </th>
+                            <td colspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/sod.png">
                                     Spaghetti Open Data
-				    			</div>
-			    			</td>
-		    			</tr>
-		    			<tr>
-			    			<th>
-				    			<div class="room-contents">
-									Aula 4
-				    			</div>
-			    			</th>
-			    			<td>
-			    				<div class="room-overlay">
-				    				<img src="img/ubuntuit.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Aula 4
+                                </div>
+                            </th>
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/ubuntuit.png">
                                     Ubuntu-IT
-			    				</div>
-		    				</td>
-			    			<td>
-			    				<div class="room-overlay">
-					    			<img src="img/ils.png">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/ils.png">
                                     Italian Linux Society
-				    			</div>
-			    			</td>
-		    			</tr>
-						<tr>
-			    			<th>
-				    			<div class="room-contents">
-									Aula 5
-				    			</div>
-			    			</th>
-			    			<td colspan="2">
-			    				<div class="room-overlay">
-					    			<img src="img/you.png">
-                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)? <a href="#section-contacts" class="page-scroll">Contattaci!</a>
-				    			</div>
-			    			</td>
-			    		</tr>
-		    		</tbody>
-	        	</table>
-        	</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Aula 5
+                                </div>
+                            </th>
+                            <td colspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/you.png">
+                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)?<br><a href="/invito" class="page-scroll">Leggi il nostro invito!</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </section>
@@ -212,7 +212,6 @@ body:
                 <div class="section-title">
                     <h2>RESTA AGGIORNATO</h2>
                 </div>
-                <!-- TODO: registrazione contatti -->
                 <form id="contactForm" class="subscribe-form form-inline" action="static/register.php" method="POST">
                     <div class="form-group">
                         <label for="email" class="sr-only">Email</label>
@@ -241,7 +240,7 @@ body:
         <div class="row">
             <div class="col-md-12 text-center">
                 <p class="lead">
-                	Hai domande? Vuoi partecipare? Non esitare a scriverci, chiamarci o twittarci!
+                    Hai domande? Vuoi partecipare? Non esitare a scriverci, chiamarci o twittarci!
                 </p>
 
                 <div class="direct-contacts">

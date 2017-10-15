@@ -142,9 +142,9 @@ ul {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active:focus {
-    background-color : transparent;
-    color            : #828F41;
-    border-color     : #828F41;
+    background-color : #e6e6e6;
+    color            : #000;
+    border-color     : #e6e6e6;
     }
 
 button:focus,
@@ -181,8 +181,8 @@ button:focus,
 
 .header {
     position : absolute;
-    left     : 15px;
-    right    : 15px;
+    left     : 0;
+    right    : 0;
     top      : 0;
     z-index  : 9;
     }
@@ -244,7 +244,11 @@ header div.latest-news a:hover {
 .navbar {
     border-radius  : 0;
     padding        : 30px 0;
-    background     : transparent;
+    background: #0577bd;
+    background: -moz-linear-gradient(left, #0577bd 0%, #339966 50%, #e24516 100%);
+    background: -webkit-linear-gradient(left, #0577bd 0%,#339966 50%,#e24516 100%);
+    background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0577bd', endColorstr='#e24516',GradientType=1 );
     margin         : 0;
     font-size      : 15px;
     text-transform : uppercase;
@@ -314,7 +318,7 @@ header div.latest-news a:hover {
         }
     }
 
-.home .main-menu .nav li a {
+.main-menu .nav li a {
     color       : #FFF;
     }
 
@@ -325,12 +329,7 @@ header div.latest-news a:hover {
     left               : 0;
     top                : 0;
     z-index            : 999;
-    background: #0577bd;
-    background: -moz-linear-gradient(left, #0577bd 0%, #339966 50%, #e24516 100%);
-    background: -webkit-linear-gradient(left, #0577bd 0%,#339966 50%,#e24516 100%);
-    background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0577bd', endColorstr='#e24516',GradientType=1 );
-    padding            : 5px 0;
+    padding            : 30px 0;
     box-shadow         : 0 2px 5px rgba(0, 0, 0, .1);
     -webkit-transition : all .5s ease-in-out;
     -moz-transition    : all .5s ease-in-out;
