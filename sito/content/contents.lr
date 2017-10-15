@@ -39,7 +39,7 @@ body:
         </div>
 
         <div class="row">
-        	<div class="col-md-12 text-center">
+            <div class="col-md-8 col-md-offset-2 text-center">
 				<p class="lead">
 					Il programma è in fase di definizione.
 				</p>
