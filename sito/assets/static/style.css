@@ -286,7 +286,7 @@ header div.latest-news a:hover {
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #828F41;
+    color      : rgba(255,255,255,0.5);
     background : transparent;
     }
 
