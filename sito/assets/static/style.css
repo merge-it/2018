@@ -246,6 +246,7 @@ header div.latest-news a:hover {
     padding        : 30px 0;
     background: #0577bd;
     background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
+    border         : 0;
     margin         : 0;
     font-size      : 15px;
     text-transform : uppercase;
