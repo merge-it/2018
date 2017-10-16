@@ -219,9 +219,10 @@ header div.latest-news a:hover {
 
 /*Logo*/
 .navbar-brand {
-    padding : 0;
+    display : block;
     height  : auto;
     margin  : 5px 0 !important;
+    padding : 8px 0;
     }
 
 .navbar-brand img {
