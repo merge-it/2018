@@ -245,12 +245,19 @@ header div.latest-news a:hover {
 .navbar {
     border-radius  : 0;
     padding        : 30px 0;
-    background: #0577bd;
-    background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
     border         : 0;
     margin         : 0;
     font-size      : 15px;
     text-transform : uppercase;
+    }
+
+.navbar, body.home .navbar.sticky-nav {
+    background : #0577bd;
+    background : linear-gradient(60deg, #0577bd 0%,#339966 50%,#e24516 100%);
+    }
+
+body.home .navbar {
+    background : transparent;
     }
 
 @media (max-width : 768px) {
@@ -362,11 +369,8 @@ header div.latest-news a:hover {
     background-repeat     : no-repeat;
     background-position   : center center;
     overflow              : hidden;
-    background: #0577bd;
-    background: -moz-linear-gradient(left, #0577bd 0%, #339966 50%, #e24516 100%);
-    background: -webkit-linear-gradient(left, #0577bd 0%,#339966 50%,#e24516 100%);
-    background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0577bd', endColorstr='#e24516',GradientType=1 );
+    background            : #0577bd;
+    background            : linear-gradient(60deg, #0577bd 0%,#339966 50%,#e24516 100%);
     }
 
 .jumbotron .content {
