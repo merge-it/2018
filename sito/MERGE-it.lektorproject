@@ -1,6 +1,6 @@
 [project]
 name = MERGE-it
-url = https://merge-it.pietroalbini.org
+url = https://merge-it.net
 
 [packages]
 lektor-atom = 0.2
