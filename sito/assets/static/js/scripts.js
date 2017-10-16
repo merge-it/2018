@@ -8,11 +8,23 @@ jQuery(function ($) {
 
     (function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() >= 50) {
-                $('nav.navbar').addClass('sticky-nav');
+            var nav = $('nav.navbar');
+
+            if (nav.closest('.home').length != 0) {
+                if ($(this).scrollTop() >= 40) {
+                    nav.addClass('sticky-nav');
+                }
+                else {
+                    nav.removeClass('sticky-nav');
+                }
             }
             else {
-                $('nav.navbar').removeClass('sticky-nav');
+                if ($(this).scrollTop() > 0) {
+                    nav.addClass('sticky-nav');
+                }
+                else {
+                    nav.removeClass('sticky-nav');
+                }
             }
         });
     }());

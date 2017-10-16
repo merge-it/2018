@@ -245,10 +245,7 @@ header div.latest-news a:hover {
     border-radius  : 0;
     padding        : 30px 0;
     background: #0577bd;
-    background: -moz-linear-gradient(left, #0577bd 0%, #339966 50%, #e24516 100%);
-    background: -webkit-linear-gradient(left, #0577bd 0%,#339966 50%,#e24516 100%);
     background: linear-gradient(to right, #0577bd 0%,#339966 50%,#e24516 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0577bd', endColorstr='#e24516',GradientType=1 );
     margin         : 0;
     font-size      : 15px;
     text-transform : uppercase;
@@ -329,7 +326,7 @@ header div.latest-news a:hover {
     left               : 0;
     top                : 0;
     z-index            : 999;
-    padding            : 30px 0;
+    padding            : 20px 0;
     box-shadow         : 0 2px 5px rgba(0, 0, 0, .1);
     -webkit-transition : all .5s ease-in-out;
     -moz-transition    : all .5s ease-in-out;
