@@ -55,11 +55,12 @@ body:
                     <thead>
                         <tr>
                             <th width="10%">&nbsp;</th>
-                            <th width="18%">Aula 1</th>
-                            <th width="18%">Aula 2</th>
-                            <th width="18%">Aula 3</th>
-                            <th width="18%">Aula 4</th>
-                            <th width="18%">Aula 5</th>
+                            <th width="15%">Aula 1</th>
+                            <th width="15%">Aula 2</th>
+                            <th width="15%">Aula 3</th>
+                            <th width="15%">Aula 4</th>
+                            <th width="15%">Aula 5</th>
+                            <th width="15%">Aula 6</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -72,25 +73,31 @@ body:
                             <td rowspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/wikimedia.png">
-                                    Wikimedia Italia
+                                    Wikimedia<br>Italia
                                 </div>
                             </td>
                             <td rowspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/openstreetmap.png">
-                                    OpenStreetMap Italia
+                                    OpenStreetMap<br>Italia
                                 </div>
                             </td>
                             <td rowspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/sod.png">
-                                    Spaghetti Open Data
+                                    Spaghetti<br>Open Data
                                 </div>
                             </td>
                             <td>
                                 <div class="room-overlay">
                                     <img src="static/images/logos/ubuntuit.png">
                                     Ubuntu-IT
+                                </div>
+                            </td>
+                            <td rowspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/iisl.png">
+                                    Industria Italiana<br>Software Libero
                                 </div>
                             </td>
                             <td rowspan="2">
@@ -189,6 +196,19 @@ body:
                             <th>
                                 <div class="room-contents">
                                     Aula 5
+                                </div>
+                            </th>
+                            <td colspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/iisl.png">
+                                    Industria Italiana Software Libero
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="room-contents">
+                                    Aula 6
                                 </div>
                             </th>
                             <td colspan="2">
