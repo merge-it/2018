@@ -2,6 +2,29 @@ jQuery(function ($) {
 
     'use strict';
 
+    var starIcon = L.icon({
+        iconUrl:      'static/images/star_icon.png',
+        iconSize:     [30, 30],
+        shadowSize:   [0, 0],
+        iconAnchor:   [15, 15],
+        shadowAnchor: [0, 0],
+        popupAnchor:  [-15, -15]
+    });
+
+    var mapParams = {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 18,
+    };
+
+    if ($('#homepage-map').length) {
+        var map = L.map('homepage-map').setView([45.0649, 7.6767], 15);
+        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
+        L.marker([45.0649, 7.6952], {icon: starIcon}).addTo(map);
+        L.marker([45.0654, 7.6585], {icon: starIcon}).addTo(map);
+    }
+
     // --------------------------------------------------------------------
     // One Page Navigation
     // --------------------------------------------------------------------

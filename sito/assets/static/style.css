@@ -125,6 +125,7 @@ ul {
     }
 
 .btn-primary:hover,
+.btn-primary[disabled]:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
     background   : transparent;
@@ -532,6 +533,31 @@ body.home .navbar {
 .team .social-links li a:hover {
     color : #333;
     }
+
+/* --------------------------
+ * Map Intro
+ *---------------------------*/
+
+#section-map .col-md-2 {
+    height: 600px;
+    position: relative;
+}
+
+#section-map #homepage-map {
+    height: 600px;
+    width: 100%;
+}
+
+#section-map .col-md-2 figure {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#section-map .col-md-2 figcaption {
+    font-size: 12px;
+}
 
 /* --------------------------
  * Agenda

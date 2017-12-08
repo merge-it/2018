@@ -28,6 +28,57 @@ body:
     </div>
 </section>
 
+<section id="section-map" class="section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>DOVE e QUANDO</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 text-right">
+                <h4>Sabato 24 Marzo<br><small>10:00/18:00</small></h4>
+                <h5>Main Event</h5>
+                <p>
+                    Una giornata di talk, dibattiti, chiaccherate. Per scoprire ed approfondire i tanti volti della community italiana.
+                </p>
+                <figure>
+                    <img class="img-responsive" src="static/images/cp_torino.jpg">
+                    <figcaption>CC0 Bob</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-8">
+                <div id="homepage-map"></div>
+            </div>
+            <div class="col-md-2">
+                <h4>Venerdi 23 Marzo<br><small>dalle 19:30 a oltranza</small></h4>
+                <h5>Bootstrap</h5>
+                <p>
+                    Apericena informale: mangiamo e beviamo qualcosa insieme, aspettando MERGE-it...
+                </p>
+                <figure>
+                    <img class="img-responsive" src="static/images/gm_torino.jpg">
+                    <figcaption><a href="https://commons.wikimedia.org/wiki/File:Gran_madre_torino.jpg">CC-BY 2.5 "Sticco"</a></figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <br>
+                    <button disabled class="btn btn-primary">Come Arrivare, Dove Dormire, Dove Mangiare</button>
+                    <br>
+                    <small>... ci stiamo lavorando!...</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="section-ajenda" class="section-wrapper section-ajenda">
     <div class="container">
         <div class="row">
