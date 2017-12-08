@@ -546,6 +546,7 @@ body.home .navbar {
 #section-map #homepage-map {
     height: 600px;
     width: 100%;
+    z-index: 0;
 }
 
 #section-map .col-md-2 figure {
