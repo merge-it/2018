@@ -95,7 +95,13 @@ body:
                     Il programma è in fase di definizione.
                 </p>
                 <p>
-                    Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community. <a href="#section-newsletter" class="page-scroll">Iscriviti alla newsletter</a> per ricevere aggiornamenti sullo stato di avanzamento!
+                    Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community.
+                </p>
+                <p>
+                    Continuiamo a ricevere adesioni, e la stessa disposizione delle aule potrebbe variare nel tempo.
+                </p>
+                <p>
+                    <a href="#section-newsletter" class="page-scroll">Iscriviti alla newsletter</a> per ricevere aggiornamenti sullo stato di avanzamento!
                 </p>
             </div>
         </div>
@@ -103,17 +109,6 @@ body:
         <div class="row">
             <div class="col-md-12 hidden-xs">
                 <table class="table schedule">
-                    <thead>
-                        <tr>
-                            <th width="10%">&nbsp;</th>
-                            <th width="15%">Aula 1</th>
-                            <th width="15%">Aula 2</th>
-                            <th width="15%">Aula 3</th>
-                            <th width="15%">Aula 4</th>
-                            <th width="15%">Aula 5</th>
-                            <th width="15%">Aula 6</th>
-                        </tr>
-                    </thead>
                     <tbody>
                         <tr>
                             <th>
@@ -130,7 +125,9 @@ body:
                             <td rowspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/openstreetmap.png">
-                                    OpenStreetMap<br>Italia
+                                    OpenStreetMap<br>Italia<br>
+                                    <img src="static/images/logos/gfoss.png">
+                                    GFOSS
                                 </div>
                             </td>
                             <td rowspan="2">
@@ -139,10 +136,16 @@ body:
                                     Spaghetti<br>Open Data
                                 </div>
                             </td>
+                            <td rowspan="2">
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/ils.png">
+                                    Italian Linux Society
+                                </div>
+                            </td>
                             <td>
                                 <div class="room-overlay">
-                                    <img src="static/images/logos/ubuntuit.png">
-                                    Ubuntu-IT
+                                    <img src="static/images/logos/ninux.png">
+                                    Ninux
                                 </div>
                             </td>
                             <td rowspan="2">
@@ -166,8 +169,8 @@ body:
                             </th>
                             <td>
                                 <div class="room-overlay">
-                                    <img src="static/images/logos/ils.png">
-                                    Italian Linux Society
+                                    <img src="static/images/logos/ubuntuit.png">
+                                    Ubuntu-IT
                                 </div>
                             </td>
                         </tr>
