@@ -116,23 +116,4 @@ jQuery(function ($) {
         });
     });
 
-    $('#C4PForm').submit(function(e) {
-        e.preventDefault();
-        var button = $(this).find('button[type=submit]');
-        button.prop('disabled', true);
-
-        $.ajax({
-            url: 'https://postegg.madbob.org/save/1e91d390-dc60-11e7-9e12-1dc6a5470eaa',
-            method: 'POST',
-            data: $(this).serialize(),
-            success: function(data) {
-                button.text('Candidatura inviata!');
-            },
-            error: function() {
-                button.text('Errore!');
-                button.prop('disabled', false);
-            }
-        });
-    });
-
 }); // JQuery end
