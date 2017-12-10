@@ -1,0 +1,26 @@
+title: Call 4 Papers
+---
+body_class: c4p
+---
+body:
+
+<br>
+
+<section id="section-c4p" class="section-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Grazie per il tuo contributo!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p>
+                    Verrai ricontattato a fine gennaio con l'esito delle candidature, per ulteriori informazioni o richieste particolari contattaci.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
