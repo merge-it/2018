@@ -1,0 +1,151 @@
+title: Call 4 Papers
+---
+body_class: c4p
+---
+body:
+
+<br>
+
+<section id="section-c4p" class="section-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>CALL 4 PAPERS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p>
+                    Abbiamo una data. Abbiamo una sede. Abbiamo delle sessioni tematiche. Manchi solo tu!
+                </p>
+                <p>
+                    Per proporre un talk compila il form qui sotto. Le candidature saranno vagliate, tutte insieme, dai rappresentanti delle diverse community ospitate.
+                </p>
+                <p>
+                    Particolarmente apprezzati saranno interventi meno divulgativi e di taglio più specifico o di approfondimento. Eventualmente, se opportuno e di contenuto trasversale su più temi, il talk proposto sarà assegnato a una sessione diversa da quella indicata: del resto, questo è il MERGE-it!
+                </p>
+                <p>
+                    <strong>La Call 4 Papers si chiude domenica 14 gennaio!</strong>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Industria Software Libero</h4>
+                <p>
+                    Software ad uso professionale, framework e strumenti di sviluppo orientati al business, casi di successo nel mondo dell'impresa con software libero.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Linux</h4>
+                <p>
+                    Software applicativo rivolto agli utenti, framework e strumenti di sviluppo orientati al desktop, distribuzioni.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Ninux</h4>
+                <p>
+                    Networking alternativo, reti e protocolli di trasmissione dati, servizi di rete.
+                </p>
+            </div>
+            <p class="clearfix">&nbsp;</p>
+            <div class="col-md-4">
+                <h4>Open Data</h4>
+                <p>
+                    Software per racconta ed analisi di dati, basi dati di interesse, esperienze con l'uso o la creazione di dataset.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Open Street Map</h4>
+                <p>
+                    Dati di carattere geogratico, software applicativo per la loro analisi e visualizzazione, esperienze di mapping.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Wikipedia</h4>
+                <p>
+                    Strumenti per la consultazione e la collaborazione, progetti paralleli (Wikidata, Commons, Wikibooks...), esperienze di editing sociale.
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <form id="C4PForm" class="form-horizontal" method="POST" action="http://postegg.madbob.org/save/1e91d390-dc60-11e7-9e12-1dc6a5470eaa">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-4 control-label">Nome e Cognome</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="name" class="form-control" required>
+                            <span class="help-block">Indica il tuo nome, non quello di associazioni o gruppi</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-4 control-label">Indirizzo E-Mail</label>
+                        <div class="col-sm-8">
+                            <input type="email" name="email" class="form-control" required>
+                            <span class="help-block">Per essere contattato in merito all'esito della tua candidatura</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="session" class="col-sm-4 control-label">Sessione</label>
+                        <div class="col-sm-8">
+                            <select name="session" class="form-control" required>
+                                <option name="industria">Industria Software Libero</option>
+                                <option name="linux">Linux</option>
+                                <option name="ninux">Ninux</option>
+                                <option name="od">Open Data</option>
+                                <option name="osm">Open Street Map</option>
+                                <option name="wikimedia">Wikipedia</option>
+                            </select>
+                            <span class="help-block">Se selezionato potresti essere allocato in una diversa sessione</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="duration" class="col-sm-4 control-label">Durata Prevista</label>
+                        <div class="col-sm-8">
+                            <select name="duration" class="form-control" required>
+                                <option name="45">45 minuti</option>
+                                <option name="30">30 minuti</option>
+                                <option name="15">15 minuti</option>
+                            </select>
+                            <span class="help-block">Durata indicativa, considereremo 10 minuti di margine per agevolare gli spostamenti da una sessione all'altra</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="title" class="col-sm-4 control-label">Titolo</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="title" class="form-control" minlength="10" maxlength="100" required>
+                            <span class="help-block">Minimo 10 caratteri, massimo 100 caratteri</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="abstract" class="col-sm-4 control-label">Abstract</label>
+                        <div class="col-sm-8">
+                            <textarea name="abstract" rows="10" class="form-control" minlength="100" maxlength="1000" required></textarea>
+                            <span class="help-block">Minimo 100 caratteri, massimo 1000 caratteri</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes" class="col-sm-4 control-label">Eventuali Note per l'Organizzazione</label>
+                        <div class="col-sm-8">
+                            <textarea name="notes" rows="10" class="form-control"></textarea>
+                            <span class="help-block">Se hai qualcosa da comunicare, fallo qui!</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-8 col-sm-offset-4">
+                            <button class="btn btn-primary" type="submit">Invia Candidatura</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

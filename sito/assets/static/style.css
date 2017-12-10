@@ -556,7 +556,7 @@ body.home .navbar {
     right: 0;
 }
 
-#section-map .col-md-2 figcaption {
+#section-map .col-md-3 figcaption {
     font-size: 12px;
 }
 
@@ -730,6 +730,17 @@ body.home .navbar {
         margin-bottom : 30px;
         }
     }
+
+/*---------------------------
+ * C4P
+ *---------------------------*/
+
+#section-c4p .form-control {
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: #555;
+    border: 1px solid #ccc;
+}
 
 /*---------------------------
  * Section Contacts

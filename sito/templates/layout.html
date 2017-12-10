@@ -28,6 +28,7 @@
         <meta name="twitter:creator" content="@Merge_IT" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://www.merge-it.net/" />
+        <meta name="twitter:image" content="https://merge-it.net/static/images/avatar.png">
     </head>
     <body {% block body_extra %}{% endblock %}>
         <div id="main-wrapper">
@@ -57,6 +58,7 @@
                             <ul class="nav navbar-nav">
                                 <li class="hidden"><a href="{{ '/index.html#page-top' | url }}"></a></li>
                                 <li><a href="{{ '/index.html#section-intro' | url }}">Info</a></li>
+                                <li><a href="{{ '/index.html#section-map' | url }}">Location</a></li>
                                 <li><a href="{{ '/index.html#section-ajenda' | url }}">Programma</a></li>
                                 <li><a href="{{ '/index.html#section-contacts' | url }}">Contatti</a></li>
                                 <!-- <li><a href="{{ '/news/' | url }}">Notizie</a></li> -->
@@ -67,6 +69,41 @@
             </header>
 
             {% block body %}{% endblock %}
+
+            <section id="section-contacts" class="section-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h2>CONTATTI</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p class="lead">
+                                Hai domande, dubbi o perplessità? Non esitare a scriverci, chiamarci o twittarci!
+                            </p>
+
+                            <div class="direct-contacts">
+                                <span>
+                                    <img src="{{ '/static/fa/globe.svg' | asseturl }}"> merge-it.net
+                                </span>
+                                <span>
+                                    <img src="{{ 'static/fa/twitter.svg' | asseturl }}"> @Merge_IT
+                                </span>
+                                <span>
+                                    <img src="{{ 'static/fa/envelope-o.svg' | asseturl }}"> info@merge-it.net
+                                </span>
+                                <span>
+                                    <img src="{{ 'static/fa/phone.svg' | asseturl }}"> +39 348.7254214
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <footer class="footer">
                 <div class="copyright-section">

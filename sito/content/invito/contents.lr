@@ -39,22 +39,3 @@ body:
         </div>
     </div>
 </section>
-
-<section id="section-contacts" class="section-wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="col-md-6">
-                    <span>
-                        <img src="/static/fa/envelope-o.svg"> info@merge-it.net
-                    </span>
-                </div>
-                <div class="col-md-6">
-                    <span class="pull-right">
-                        <img src="/static/fa/phone.svg"> +39 348.7254214
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>

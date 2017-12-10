@@ -33,35 +33,37 @@ body:
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h2>DOVE e QUANDO</h2>
+                    <h2>DOVE E QUANDO</h2>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-2 text-right">
-                <h4>Sabato 24 Marzo<br><small>10:00/18:00</small></h4>
-                <h5>Main Event</h5>
-                <p>
-                    Una giornata di talk, dibattiti, chiaccherate. Per scoprire ed approfondire i tanti volti della community italiana.
-                </p>
-                <figure>
-                    <img class="img-responsive" src="static/images/cp_torino.jpg">
-                    <figcaption>CC0 Bob</figcaption>
-                </figure>
-            </div>
-            <div class="col-md-8">
-                <div id="homepage-map"></div>
-            </div>
-            <div class="col-md-2">
-                <h4>Venerdi 23 Marzo<br><small>dalle 19:30 a oltranza</small></h4>
+            <div class="col-md-3 col-md-offset-3 text-right">
+                <h3>Venerdi 23 Marzo<br><small>Piazza Vittorio Veneto, dalle 19:30 a oltranza</small></h3>
                 <h5>Bootstrap</h5>
                 <p>
                     Apericena informale: mangiamo e beviamo qualcosa insieme, aspettando MERGE-it...
                 </p>
-                <figure>
+                <figure style="float: right">
                     <img class="img-responsive" src="static/images/gm_torino.jpg">
                     <figcaption><a href="https://commons.wikimedia.org/wiki/File:Gran_madre_torino.jpg">CC-BY 2.5 "Sticco"</a></figcaption>
+                </figure>
+            </div>
+            <!--
+            <div class="col-md-8">
+                <div id="homepage-map"></div>
+            </div>
+            -->
+            <div class="col-md-3">
+                <h3>Sabato 24 Marzo<br><small>Cittadella Politecnica, dalle 10:00 alle 18:00</small></h3>
+                <h5>Main Event</h5>
+                <p>
+                    Una giornata di talk, dibattiti, chiaccherate. Per scoprire ed approfondire i tanti volti della community italiana.
+                </p>
+                <figure style="float: left">
+                    <img class="img-responsive" src="static/images/cp_torino.jpg">
+                    <figcaption><a href="http://linuxdaytorino.org/2013/foto.html">CC0 "Linux Day Torino"</a></figcaption>
                 </figure>
             </div>
         </div>
@@ -95,10 +97,10 @@ body:
                     Il programma è in fase di definizione.
                 </p>
                 <p>
-                    Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community.
+                    <a class="btn btn-primary btn-lg" href="c4p">PARTECIPA ALLA CALL 4 PAPERS!</a>
                 </p>
                 <p>
-                    Continuiamo a ricevere adesioni, e la stessa disposizione delle aule potrebbe variare nel tempo.
+                    Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community. Continuiamo a ricevere adesioni, e la stessa disposizione delle aule potrebbe variare nel tempo.
                 </p>
                 <p>
                     <a href="#section-newsletter" class="page-scroll">Iscriviti alla newsletter</a> per ricevere aggiornamenti sullo stato di avanzamento!
@@ -122,12 +124,10 @@ body:
                                     Wikimedia<br>Italia
                                 </div>
                             </td>
-                            <td rowspan="2">
+                            <td>
                                 <div class="room-overlay">
                                     <img src="static/images/logos/openstreetmap.png">
-                                    OpenStreetMap<br>Italia<br>
-                                    <img src="static/images/logos/gfoss.png">
-                                    GFOSS
+                                    OpenStreetMap<br>Italia
                                 </div>
                             </td>
                             <td rowspan="2">
@@ -167,6 +167,12 @@ body:
                                     Pomeriggio
                                 </div>
                             </th>
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/gfoss.png">
+                                    GFOSS
+                                </div>
+                            </td>
                             <td>
                                 <div class="room-overlay">
                                     <img src="static/images/logos/ubuntuit.png">
@@ -296,41 +302,6 @@ body:
                     </div>
                     <button type="submit" class="btn btn-primary btn-lg">ISCRIVITI ALLA NEWSLETTER</button>
                 </form>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="section-contacts" class="section-wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>CONTATTI</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="lead">
-                    Hai domande? Vuoi partecipare? Non esitare a scriverci, chiamarci o twittarci!
-                </p>
-
-                <div class="direct-contacts">
-                    <span>
-                        <img src="static/fa/globe.svg"> merge-it.net
-                    </span>
-                    <span>
-                        <img src="static/fa/twitter.svg"> @Merge_IT
-                    </span>
-                    <span>
-                        <img src="static/fa/envelope-o.svg"> info@merge-it.net
-                    </span>
-                    <span>
-                        <img src="static/fa/phone.svg"> +39 348.7254214
-                    </span>
-                </div>
             </div>
         </div>
     </div>
