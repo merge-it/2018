@@ -122,7 +122,7 @@ jQuery(function ($) {
         button.prop('disabled', true);
 
         $.ajax({
-            url: 'http://postegg.madbob.org/save/1e91d390-dc60-11e7-9e12-1dc6a5470eaa',
+            url: 'https://postegg.madbob.org/save/1e91d390-dc60-11e7-9e12-1dc6a5470eaa',
             method: 'POST',
             data: $(this).serialize(),
             success: function(data) {
