@@ -82,7 +82,7 @@ body:
 </section>
 
 <section id="section-ajenda" class="section-wrapper section-ajenda">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
@@ -138,14 +138,20 @@ body:
                             </td>
                             <td rowspan="2">
                                 <div class="room-overlay">
+                                    <img src="static/images/logos/ubuntuit.png">
+                                    Ubuntu-IT
+                                </div>
+                            </td>
+                            <td rowspan="2">
+                                <div class="room-overlay">
                                     <img src="static/images/logos/ils.png">
                                     Italian Linux Society
                                 </div>
                             </td>
                             <td>
                                 <div class="room-overlay">
-                                    <img src="static/images/logos/ninux.png">
-                                    Ninux
+                                    <img src="static/images/logos/libreitalia.png">
+                                    LibreItalia
                                 </div>
                             </td>
                             <td rowspan="2">
@@ -175,8 +181,8 @@ body:
                             </td>
                             <td>
                                 <div class="room-overlay">
-                                    <img src="static/images/logos/ubuntuit.png">
-                                    Ubuntu-IT
+                                    <img src="static/images/logos/ninux.png">
+                                    Ninux
                                 </div>
                             </td>
                         </tr>
@@ -188,18 +194,12 @@ body:
                 <table class="table schedule">
                     <thead>
                         <tr>
-                            <th width="30%">&nbsp;</th>
                             <th width="35%">Mattino</th>
                             <th width="35%">Pomeriggio</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Aula 1
-                                </div>
-                            </th>
                             <td colspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/wikimedia.png">
@@ -208,24 +208,20 @@ body:
                             </td>
                         </tr>
                         <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Aula 2
-                                </div>
-                            </th>
-                            <td colspan="2">
+                            <td>
                                 <div class="room-overlay">
                                     <img src="static/images/logos/openstreetmap.png">
                                     OpenStreetMap Italia
                                 </div>
                             </td>
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/gfoss.png">
+                                    GFOSS
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Aula 3
-                                </div>
-                            </th>
                             <td colspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/sod.png">
@@ -234,18 +230,15 @@ body:
                             </td>
                         </tr>
                         <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Aula 4
-                                </div>
-                            </th>
-                            <td>
+                            <td colspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/ubuntuit.png">
                                     Ubuntu-IT
                                 </div>
                             </td>
-                            <td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/ils.png">
                                     Italian Linux Society
@@ -253,11 +246,6 @@ body:
                             </td>
                         </tr>
                         <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Aula 5
-                                </div>
-                            </th>
                             <td colspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/iisl.png">
@@ -266,11 +254,20 @@ body:
                             </td>
                         </tr>
                         <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Aula 6
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/libreitalia.png">
+                                    LibreItalia
                                 </div>
-                            </th>
+                            </td>
+                            <td>
+                                <div class="room-overlay">
+                                    <img src="static/images/logos/ninux.png">
+                                    Ninux
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
                             <td colspan="2">
                                 <div class="room-overlay">
                                     <img src="static/images/logos/you.png">

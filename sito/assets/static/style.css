@@ -568,7 +568,7 @@ body.home .navbar {
  	vertical-align: middle;
  	border: 0;
  	position: relative;
-    width: 12.5%;
+    width: 11.11%;
 }
 .section-ajenda .schedule tbody td {
  	min-height: 200px;
@@ -576,7 +576,7 @@ body.home .navbar {
  	vertical-align: middle;
  	border: 1px solid #ddd;
  	position: relative;
-    width: 12.5%;
+    width: 11.11%;
 }
 
 .room-contents {
@@ -598,8 +598,9 @@ body.home .navbar {
 }
 
 .section-ajenda .schedule tbody td img {
- 	width: 70%;
-    margin: 0 20px 20px 20px;
+    display: block;
+ 	width: 50%;
+    margin: 20px auto;
 }
 
 .section-ajenda .session {
@@ -632,7 +633,9 @@ body.home .navbar {
 
 @media (max-width : 766px) {
     .section-ajenda .schedule tbody td img {
-        display: none;
+        display: block;
+        width: 50px;
+        margin: auto;
     }
 }
 
