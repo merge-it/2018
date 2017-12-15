@@ -77,9 +77,9 @@ body:
             </div>
             <p class="clearfix">&nbsp;</p>
             <div class="col-md-4">
-                <h4>Wikipedia</h4>
+                <h4>Wikimedia</h4>
                 <p>
-                    Strumenti per la consultazione e la collaborazione, progetti paralleli (Wikidata, Commons, Wikibooks...), esperienze di editing sociale.
+                    MediaWiki e strumenti collaborativi per la conoscenza libera. Wikipedia e i progetti fratelli (Wikidata, Commons, Wikizionario...); didattica e OER.
                 </p>
             </div>
         </div>
@@ -113,7 +113,7 @@ body:
                                 <option name="ninux">Ninux</option>
                                 <option name="od">Open Data</option>
                                 <option name="osm">Open Street Map</option>
-                                <option name="wikimedia">Wikipedia</option>
+                                <option name="wikimedia">Wikimedia</option>
                             </select>
                             <span class="help-block">Se selezionato potresti essere allocato in una diversa sessione</span>
                         </div>
