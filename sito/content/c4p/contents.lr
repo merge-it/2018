@@ -70,9 +70,9 @@ body:
                 </p>
             </div>
             <div class="col-md-4">
-                <h4>Open Street Map</h4>
+                <h4>OpenStreetMap</h4>
                 <p>
-                    Dati di carattere geogratico, software applicativo per la loro analisi e visualizzazione, esperienze di mapping.
+                    Dati geografici liberi e relativi software applicativi per la loro analisi e visualizzazione, esperienze di mapping.
                 </p>
             </div>
             <p class="clearfix">&nbsp;</p>
@@ -112,7 +112,7 @@ body:
                                 <option name="linux">Linux</option>
                                 <option name="ninux">Ninux</option>
                                 <option name="od">Open Data</option>
-                                <option name="osm">Open Street Map</option>
+                                <option name="osm">OpenStreetMap</option>
                                 <option name="wikimedia">Wikipedia</option>
                             </select>
                             <span class="help-block">Se selezionato potresti essere allocato in una diversa sessione</span>
