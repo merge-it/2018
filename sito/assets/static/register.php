@@ -3,6 +3,12 @@
 try  {
     $mode = trim($_POST['mode']);
     $email = trim($_POST['email']);
+    $spam_trap = trim($_POST['name']);
+
+    if (!empty($spam_trap)) {
+        echo "error: spam";
+        exit();
+    }
 
     if (empty($email)) {
         echo "error: empty";

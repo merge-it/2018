@@ -98,6 +98,7 @@ jQuery(function ($) {
             method: 'POST',
             data: {
                 email: $(this).find('input[name=email]').val(),
+                name: $(this).find('input[name=name]').val(),
                 mode: 'js'
             },
             success: function(data) {
