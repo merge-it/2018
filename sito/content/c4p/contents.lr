@@ -66,13 +66,13 @@ body:
             <div class="col-md-4">
                 <h4>Open Data</h4>
                 <p>
-                    Software per racconta ed analisi di dati, basi dati di interesse, esperienze con l'uso o la creazione di dataset.
+                    Software per raccolta ed analisi di dati, basi dati di interesse, esperienze con l'uso o la creazione di dataset.
                 </p>
             </div>
             <div class="col-md-4">
-                <h4>Open Street Map</h4>
+                <h4>OpenStreetMap</h4>
                 <p>
-                    Dati di carattere geogratico, software applicativo per la loro analisi e visualizzazione, esperienze di mapping.
+                    Dati geografici liberi e relativi software applicativi per la loro analisi e visualizzazione, esperienze di mapping.
                 </p>
             </div>
             <p class="clearfix">&nbsp;</p>
@@ -112,7 +112,7 @@ body:
                                 <option name="linux">Linux</option>
                                 <option name="ninux">Ninux</option>
                                 <option name="od">Open Data</option>
-                                <option name="osm">Open Street Map</option>
+                                <option name="osm">OpenStreetMap</option>
                                 <option name="wikimedia">Wikimedia</option>
                             </select>
                             <span class="help-block">Se selezionato potresti essere allocato in una diversa sessione</span>
