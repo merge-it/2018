@@ -3,7 +3,34 @@ jQuery(function ($) {
     'use strict';
 
     var starIcon = L.icon({
-        iconUrl:      'static/images/star_icon.png',
+        iconUrl:      '/static/images/star_icon.png',
+        iconSize:     [30, 30],
+        shadowSize:   [0, 0],
+        iconAnchor:   [15, 15],
+        shadowAnchor: [0, 0],
+        popupAnchor:  [-15, -15]
+    });
+
+    var trainIcon = L.icon({
+        iconUrl:      '/static/images/train_icon.png',
+        iconSize:     [30, 30],
+        shadowSize:   [0, 0],
+        iconAnchor:   [15, 15],
+        shadowAnchor: [0, 0],
+        popupAnchor:  [-15, -15]
+    });
+
+    var parkingIcon = L.icon({
+        iconUrl:      '/static/images/parking_icon.png',
+        iconSize:     [30, 30],
+        shadowSize:   [0, 0],
+        iconAnchor:   [15, 15],
+        shadowAnchor: [0, 0],
+        popupAnchor:  [-15, -15]
+    });
+
+    var partyIcon = L.icon({
+        iconUrl:      '/static/images/party_icon.png',
         iconSize:     [30, 30],
         shadowSize:   [0, 0],
         iconAnchor:   [15, 15],
@@ -19,10 +46,20 @@ jQuery(function ($) {
     };
 
     if ($('#homepage-map').length) {
-        var map = L.map('homepage-map').setView([45.0649, 7.6767], 15);
+        var map = L.map('homepage-map').setView([45.0654, 7.6584], 14);
         L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
-        L.marker([45.0649, 7.6952], {icon: starIcon}).addTo(map);
-        L.marker([45.0654, 7.6585], {icon: starIcon}).addTo(map);
+        // L.marker([45.0649, 7.6952], {icon: starIcon}).addTo(map);
+        L.marker([45.0654, 7.6585], {icon: starIcon}).bindPopup("<b>Main Event</b><br>Sabato 24 Marzo").addTo(map);
+        L.marker([45.0617, 7.6783], {icon: trainIcon}).bindPopup("Stazione Porta Nuova").addTo(map);
+        L.marker([45.0717, 7.6660], {icon: trainIcon}).bindPopup("Stazione Porta Susa").addTo(map);
+        L.marker([45.0673, 7.6621], {icon: parkingIcon}).bindPopup("Pacheggia Qui!").addTo(map);
+        L.marker([45.0649, 7.6952], {icon: partyIcon}).bindPopup("<b>Bootstrap Event</b><br>Venerdi 23 Marzo").addTo(map);
+    }
+
+    if ($('#bootstrap-map').length) {
+        var map = L.map('bootstrap-map').setView([45.0648, 7.6953], 15);
+        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
+        L.marker([45.0649, 7.6952], {icon: partyIcon}).addTo(map);
     }
 
     // --------------------------------------------------------------------

@@ -72,9 +72,8 @@ body:
             <div class="col-md-12 text-center">
                 <div class="section-title">
                     <br>
-                    <button disabled class="btn btn-primary">Come Arrivare, Dove Dormire, Dove Mangiare</button>
+                    <a class="btn btn-primary" href="location">Come Arrivare, Dove Dormire, Dove Mangiare</a>
                     <br>
-                    <small>... ci stiamo lavorando!...</small>
                 </div>
             </div>
         </div>

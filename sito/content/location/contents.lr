@@ -1,0 +1,180 @@
+title: Location
+---
+body_class: location
+---
+body:
+
+<br>
+
+<section id="section-address" class="section-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>DOVE SIAMO</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="homepage-map"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <br>
+
+            <div class="col-md-12">
+                <p>
+                    La sede principale di MERGE-it è la Corte Interrata della Cittadella del Politecnico di Torino.
+                </p>
+                <p>
+                    Ci sono due ingressi principali: uno in <strong>Corso Castelfidardo 30/A</strong> (più comodo per la metropolitana, se si arriva dalla stazione Porta Nuova, e per il parcheggio in auto), uno in <strong>Via Pier Carlo Boggio 59</strong>. Il cortile con le aule sta proprio nel mezzo, lungo un percorso pedonale: seguite le indicazioni!
+                </p>
+            </div>
+        </div>
+</section>
+
+<section id="section-travel" class="section-wrapper gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>COME ARRIVARE</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>In treno</h3>
+                <p>
+                    Le due principali stazioni di Torino sono Porta Nuova e Porta Susa, entrambe raggiunte dalle linee ad alta velocità <a href="http://www.trenitalia.com/">Trenitalia</a> e <a href="https://www.italotreno.it/it">Italo</a>, entrambe vicino al centro e a 20/30 minuti a piedi da MERGE-it (Porta Susa è più vicina!).
+                </p>
+                <p>
+                    Se non volete camminare, potete prendere:
+                </p>
+                <ul>
+                    <li>
+                        da Porta Nuova
+                        <ul>
+                            <li>la metropolitana, in direzione Fermi, scendendo alla stazione Vinzaglio (due fermate). Il biglietto può essere fatto nella stazione della metro stessa</li>
+                            <li>il tram 9 in direzione Stampalia, il bus 68 in direzione Frejus, o il bus 33 in direzione Stazione di Collegno. Il biglietto va fatto prima di salire a bordo, presso i tabaccai e le edicole di Porta Nuova</li>
+                        </ul>
+                    </li>
+                    <li>
+                        da Porta Susa
+                        <ul>
+                            <li>è talmente vicina che fate prima a piedi che ad aspettare il bus!</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>In aereo</h3>
+                <p>
+                    Torino è servita dall'<a href="http://www.aeroportoditorino.it/it">aeroporto Sandro Pertini di Caselle Torinese</a>, presso cui arrivano voli da tutte le principali città italiane.
+                </p>
+                <p>
+                    Si può raggiungere la città:
+                </p>
+                <ul>
+                    <li>in bus, fino alle stazioni Porta Nuova e Porta Susa (vedi poi informazioni sui treni); <a href="http://www.sadem.it/it/prodotti/collegamento-aeroporti/torino-torino-airport.aspx">qui le informazioni su biglietti e orari</a></li>
+                    <li>in treno, sulla linea Torino/Aeroporto/Ceres (che ferma alla stazione Torino Dora); <a href="http://www.gtt.to.it/cms/linee-e-orari/torino-e-cintura/collegamento-aeroporto">qui le informazioni su biglietti e orari</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>In auto</h3>
+                <p>
+                    Aprite il navigatore o lo smartphone, certo sa darvi informazioni migliori di quanto possano essere scritte qui!
+                </p>
+                <p>
+                    Lungo i controviali di Corso Castelfidardo è più facile trovare parcheggio, tantopiù al sabato.
+                </p>
+            </div>
+        </div>
+</section>
+
+
+<section id="section-party" class="section-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>BOOTSTRAP: VENERDÌ 23 MARZO</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    A Torino è estremamente diffusa la pratica dell'<i>apericena</i>, ovvero la cena a buffet da accompagnare all'aperitivo. Una modalità ideale per cenare in modo informale, spostandosi da un tavolo all'altro o chiaccherando in piedi.
+                </p>
+                <p>
+                    Per accogliere coloro che arriveranno in città già il venerdi precedente a MERGE-it, e per iniziare a conoscerci, organizzeremo un apericena "distribuito" su diversi locali affacciati su <strong>Piazza Vittorio Veneto</strong>. Vedremo di farci individuare e riconoscere facilmente!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div id="bootstrap-map"></div>
+            </div>
+        </div>
+</section>
+
+<section id="section-sleep" class="section-wrapper gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>DOVE DORMIRE</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-info text-center">
+                    TODO
+                </div>
+            </div>
+        </div>
+</section>
+
+<section id="section-food" class="section-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>DOVE MANGIARE</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-info text-center">
+                    TODO
+                </div>
+            </div>
+        </div>
+</section>
+
+<section id="section-tourism" class="section-wrapper gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>E POI?</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Se avete la fortuna di arrivare venerdi presto (prima della cena insieme) o di fermarvi anche la domenica successiva a MERGE-it, consigliamo caldamente di visitare la città! <a href="https://it.wikivoyage.org/wiki/Torino">Su WikiVoyage</a> si trovano informazioni di tipo turistico sui luoghi da visitare.
+                </p>
+            </div>
+        </div>
+</section>

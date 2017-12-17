@@ -543,8 +543,14 @@ body.home .navbar {
     position: relative;
 }
 
-#section-map #homepage-map {
+#homepage-map {
     height: 600px;
+    width: 100%;
+    z-index: 0;
+}
+
+#bootstrap-map {
+    height: 300px;
     width: 100%;
     z-index: 0;
 }
@@ -637,6 +643,11 @@ body.home .navbar {
         width: 50px;
         margin: auto;
     }
+}
+
+#section-travel ul {
+    list-style: circle;
+    padding: 0 0 0 20px;
 }
 
 /* --------------------------
