@@ -66,20 +66,20 @@ body:
             <div class="col-md-4">
                 <h4>Open Data</h4>
                 <p>
-                    Software per raccolta ed analisi di dati, basi dati di interesse, esperienze con l'uso o la creazione di dataset.
+                    Esperienze di successo (e insuccesso) con gli open data, laboratori di riuso per liberare i dati, FOIA e accesso civico.
                 </p>
             </div>
             <div class="col-md-4">
                 <h4>OpenStreetMap</h4>
                 <p>
-                    Dati geografici liberi e relativi software applicativi per la loro analisi e visualizzazione, esperienze di mapping.
+                    Esperienze ed esempi rilevanti di riuso dei dati di OpenStreetMap, strumenti per partecipare al progetto, migliorare i dati e "giocare".
                 </p>
             </div>
             <p class="clearfix">&nbsp;</p>
             <div class="col-md-4">
                 <h4>Wikimedia</h4>
                 <p>
-                    MediaWiki e strumenti collaborativi per la conoscenza libera. Wikipedia e i progetti fratelli (Wikidata, Commons, Wikizionario...); didattica e OER.
+                    MediaWiki e strumenti collaborativi per la conoscenza libera, Wikipedia e i progetti fratelli (Wikidata, Commons, Wikizionario...), didattica e OER.
                 </p>
             </div>
         </div>
