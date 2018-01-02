@@ -58,6 +58,12 @@ body:
             </div>
             <p class="clearfix">&nbsp;</p>
             <div class="col-md-4">
+                <h4>Mozilla</h4>
+                <p>
+                    Tecnologie per lo sviluppo web, Firefox, WebVR, Rust, DeepSpeech e WebAssembly.
+                </p>
+            </div>
+            <div class="col-md-4">
                 <h4>Ninux</h4>
                 <p>
                     Networking alternativo, reti e protocolli di trasmissione dati, servizi di rete.
@@ -69,13 +75,13 @@ body:
                     Esperienze di successo (e insuccesso) con gli open data, laboratori di riuso per liberare i dati, FOIA e accesso civico.
                 </p>
             </div>
+            <p class="clearfix">&nbsp;</p>
             <div class="col-md-4">
                 <h4>OpenStreetMap</h4>
                 <p>
                     Esperienze ed esempi rilevanti di riuso dei dati di OpenStreetMap, strumenti per partecipare al progetto, migliorare i dati e "giocare".
                 </p>
             </div>
-            <p class="clearfix">&nbsp;</p>
             <div class="col-md-4">
                 <h4>Wikimedia</h4>
                 <p>
