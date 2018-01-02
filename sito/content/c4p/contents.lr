@@ -116,6 +116,7 @@ body:
                                 <option name="business">Business</option>
                                 <option name="libreoffice">LibreOffice</option>
                                 <option name="linux">Linux</option>
+                                <option name="mozilla">Mozilla</option>
                                 <option name="ninux">Ninux</option>
                                 <option name="od">Open Data</option>
                                 <option name="osm">OpenStreetMap</option>
