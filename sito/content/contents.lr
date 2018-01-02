@@ -165,12 +165,6 @@ body:
                                     Mozilla Italia
                                 </div>
                             </td>
-                            <td rowspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/you.png">
-                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)?<br><a href="/invito" class="page-scroll">Leggi il nostro invito!</a>
-                                </div>
-                            </td>
                         </tr>
                         <tr>
                             <th>
@@ -277,14 +271,6 @@ body:
                                 <div class="room-overlay">
                                     <img src="static/images/logos/mozilla.png">
                                     Mozilla Italia
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/you.png">
-                                    <strong>TU!</strong><br/>Vuoi allestire una sessione (mezza giornata o una giornata intera)?<br><a href="/invito" class="page-scroll">Leggi il nostro invito!</a>
                                 </div>
                             </td>
                         </tr>
