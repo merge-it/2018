@@ -38,6 +38,15 @@ jQuery(function ($) {
         popupAnchor:  [-15, -15]
     });
 
+    var eatIcon = L.icon({
+        iconUrl:      '/static/images/eat_icon.png',
+        iconSize:     [30, 30],
+        shadowSize:   [0, 0],
+        iconAnchor:   [15, 15],
+        shadowAnchor: [0, 0],
+        popupAnchor:  [-15, -15]
+    });
+
     var mapParams = {
         attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         subdomains: 'abcd',
@@ -48,7 +57,6 @@ jQuery(function ($) {
     if ($('#homepage-map').length) {
         var map = L.map('homepage-map').setView([45.0654, 7.6584], 14);
         L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
-        // L.marker([45.0649, 7.6952], {icon: starIcon}).addTo(map);
         L.marker([45.0654, 7.6585], {icon: starIcon}).bindPopup("<b>Main Event</b><br>Sabato 24 Marzo").addTo(map);
         L.marker([45.0617, 7.6783], {icon: trainIcon}).bindPopup("Stazione Porta Nuova").addTo(map);
         L.marker([45.0717, 7.6660], {icon: trainIcon}).bindPopup("Stazione Porta Susa").addTo(map);
@@ -60,6 +68,20 @@ jQuery(function ($) {
         var map = L.map('bootstrap-map').setView([45.0648, 7.6953], 15);
         L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
         L.marker([45.0649, 7.6952], {icon: partyIcon}).addTo(map);
+    }
+
+    if ($('#eating-map').length) {
+        var map = L.map('eating-map').setView([45.0654, 7.6584], 15);
+        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
+        L.marker([45.0654, 7.6585], {icon: starIcon}).bindPopup("MERGE-it").addTo(map);
+        L.marker([45.0659, 7.6648], {icon: eatIcon}).bindPopup("Bar The Coffee Hub<br>Corso Duca degli Abruzzi 10").addTo(map);
+        L.marker([45.0679, 7.6662], {icon: eatIcon}).bindPopup("Imperatore Istanbul Pizza e Kebap<br>Corso Vinzaglio 26").addTo(map);
+        L.marker([45.0649, 7.6534], {icon: eatIcon}).bindPopup("Pizzeria La Sarda<br>Via Gambasca 4F").addTo(map);
+        L.marker([45.0652, 7.6550], {icon: eatIcon}).bindPopup("Paninoteca 30 e Lode<br>Via San Paolo 1").addTo(map);
+        L.marker([45.0651, 7.6528], {icon: eatIcon}).bindPopup("Deniz Kebab<br>Via Monginevro 13/C").addTo(map);
+        L.marker([45.0674, 7.6501], {icon: eatIcon}).bindPopup("Pizzeria Acqua e Farina<br>Via Cesana 51").addTo(map);
+        L.marker([45.0671, 7.6509], {icon: eatIcon}).bindPopup("La Petite Maison des Crêpes<br>Via Vigone 40").addTo(map);
+        L.marker([45.0649, 7.6507], {icon: eatIcon}).bindPopup("Taverna Greca<br>Via Monginevro 29").addTo(map);
     }
 
     // --------------------------------------------------------------------

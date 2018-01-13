@@ -555,6 +555,12 @@ body.home .navbar {
     z-index: 0;
 }
 
+#eating-map {
+    height: 400px;
+    width: 100%;
+    z-index: 0;
+}
+
 #section-map .col-md-2 figure {
     position: absolute;
     bottom: 0;

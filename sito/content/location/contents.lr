@@ -152,10 +152,13 @@ body:
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <div class="alert alert-info text-center">
-                    TODO
-                </div>
+            <div class="col-md-3">
+                <p>
+                    Per la pausa pranzo di sabato sono disponibili diversi locali nei dintorni di MERGE-it, sia per prendere qualcosa da asporto che per sedersi e mangiare comodamente. Non tutti sono aperti al sabato: qui una piccola selezione, per aiutare ad orientarsi.
+                </p>
+            </div>
+            <div class="col-md-9">
+                <div id="eating-map"></div>
             </div>
         </div>
 </section>
