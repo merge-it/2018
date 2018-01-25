@@ -72,7 +72,7 @@ body:
             <div class="col-md-12 text-center">
                 <div class="section-title">
                     <br>
-                    <a class="btn btn-primary" href="location">Come Arrivare, Dove Dormire, Dove Mangiare</a>
+                    <a class="btn btn-primary" href="location">Come Arrivare<br>Dove Dormire<br>Dove Mangiare</a>
                     <br>
                 </div>
             </div>
@@ -96,187 +96,205 @@ body:
                     Il programma è in fase di definizione.
                 </p>
                 <p>
-                    <a class="btn btn-primary btn-lg" href="c4p">PARTECIPA ALLA CALL 4 PAPERS!</a>
-                </p>
-                <p>
-                    Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community. Continuiamo a ricevere adesioni, e la stessa disposizione delle aule potrebbe variare nel tempo.
-                </p>
-                <p>
-                    <a href="#section-newsletter" class="page-scroll">Iscriviti alla newsletter</a> per ricevere aggiornamenti sullo stato di avanzamento!
+                    Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community.
                 </p>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12 hidden-xs">
-                <table class="table schedule">
-                    <tbody>
-                        <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Mattino
-                                </div>
-                            </th>
-                            <td rowspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/wikimedia.png">
-                                    Wikimedia<br>Italia
-                                </div>
-                            </td>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/openstreetmap.png">
-                                    OpenStreetMap<br>Italia
-                                </div>
-                            </td>
-                            <td rowspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/sod.png">
-                                    Spaghetti<br>Open Data
-                                </div>
-                            </td>
-                            <td rowspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/ubuntuit.png">
-                                    Ubuntu-IT
-                                </div>
-                            </td>
-                            <td rowspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/ils.png">
-                                    Italian Linux Society
-                                </div>
-                            </td>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/libreitalia.png">
-                                    LibreItalia
-                                </div>
-                            </td>
-                            <td rowspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/iisl.png">
-                                    Industria Italiana<br>Software Libero
-                                </div>
-                            </td>
-                            <td rowspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/mozilla.png">
-                                    Mozilla Italia
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <div class="room-contents">
-                                    Pomeriggio
-                                </div>
-                            </th>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/gfoss.png">
-                                    GFOSS
-                                </div>
-                            </td>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/ninux.png">
-                                    Ninux
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="col-md-12 visible-xs-block">
-                <table class="table schedule">
-                    <thead>
-                        <tr>
-                            <th width="35%">Mattino</th>
-                            <th width="35%">Pomeriggio</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/wikimedia.png">
-                                    Wikimedia Italia
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/openstreetmap.png">
-                                    OpenStreetMap Italia
-                                </div>
-                            </td>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/gfoss.png">
-                                    GFOSS
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/sod.png">
-                                    Spaghetti Open Data
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/ubuntuit.png">
-                                    Ubuntu-IT
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/ils.png">
-                                    Italian Linux Society
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/libreitalia.png">
-                                    LibreItalia
-                                </div>
-                            </td>
-                            <td>
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/ninux.png">
-                                    Ninux
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/iisl.png">
-                                    Industria Italiana Software Libero
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="room-overlay">
-                                    <img src="static/images/logos/mozilla.png">
-                                    Mozilla Italia
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <div class="row scrollable-schedule">
+            <table class="table schedule">
+                <tbody>
+                    <tr>
+                        <td class="schedule-hours">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>10:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td class="schedule-contents">
+                            <table class="table">
+                                <tr>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/wikimedia.png">
+                                            <p>Wikimedia Italia</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/openstreetmap.png"> <img src="static/images/logos/gfoss.png">
+                                            <p>OpenStreetMap Italia + GFOSS-it</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/sod.png">
+                                            <p>Spaghetti Open Data</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/ubuntuit.png">
+                                            <p>Ubuntu-IT</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/ils.png">
+                                            <p>Italian Linux Society</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Assemblea
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/libreitalia.png">
+                                            <p>LibreItalia</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/iisl.png">
+                                            <p>Industria Italiana Software Libero</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Assemblea
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/mozilla.png">
+                                            <p>Mozilla Italia</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="lunch">
+                                    <td colspan="8">
+                                        <a href="/location/#section-food">Pranzo</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/wikimedia.png">
+                                            <p>Wikimedia Italia</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/openstreetmap.png"> <img src="static/images/logos/gfoss.png">
+                                            <p>OpenStreetMap Italia + GFOSS-it</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Attività Pratiche
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/sod.png">
+                                            <p>Spaghetti Open Data</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/ubuntuit.png">
+                                            <p>Ubuntu-IT</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/ils.png">
+                                            <p>Italian Linux Society</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            LUGConf
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/ninux.png">
+                                            <p>Ninux</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/iisl.png">
+                                            <p>Industria Italiana Software Libero</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Talk
+                                        </div>
+                                    </td>
+                                    <td class="half-session">
+                                        <div class="half-session-head">
+                                            <img src="static/images/logos/mozilla.png">
+                                            <p>Mozilla Italia</p>
+                                        </div>
+                                        <div class="half-session-contents">
+                                            Attività Pratiche
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>

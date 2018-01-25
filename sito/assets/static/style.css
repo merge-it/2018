@@ -575,6 +575,22 @@ body.home .navbar {
 /* --------------------------
  * Agenda
  *---------------------------*/
+
+.section-ajenda a {
+    font-weight: bold;
+}
+.section-ajenda table {
+    margin: 0;
+    padding: 0;
+}
+.section-ajenda .scrollable-schedule {
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+.section-ajenda .schedule {
+    min-width: 900px;
+}
 .section-ajenda .schedule th {
  	text-align: center;
  	vertical-align: middle;
@@ -586,69 +602,48 @@ body.home .navbar {
  	min-height: 200px;
  	text-align: center;
  	vertical-align: middle;
- 	border: 1px solid #ddd;
  	position: relative;
-    width: 11.11%;
+    border: 0;
+    padding: 0;
 }
 
-.room-contents {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
+.section-ajenda .schedule-hours {
+    width: 10%;
+}
+.section-ajenda .schedule-hours td {
+    height: 70px;
 }
 
-.room-contents .hour-05 {
-	height: 50px;
+.section-ajenda .schedule-contents {
+    width: 90%;
 }
 
-.room-contents .hour-10 {
-	height: 100px;
+.section-ajenda .lunch {
+    height: 70px;
+    border-top: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+    box-sizing: border-box;
 }
 
-.room-contents .hour-15 {
-	height: 150px;
+.half-session {
+    padding: 0;
+    margin: 0;
+    height: calc(70px * 3.5);
+    width: 12.5%;
+    min-width: 100px;
 }
-
-.section-ajenda .schedule tbody td img {
+.half-session .half-session-head {
+    margin-bottom: 30px;
+}
+.half-session .half-session-head img {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin: 0px auto;
+}
+.half-session .half-session-head p {
+    font-size: 10px;
     display: block;
- 	width: 50%;
-    margin: 20px auto;
-}
-
-.section-ajenda .session {
-    padding       : 15px 0;
-    border-left   : 1px solid #eeeeee;
-    margin-bottom : 40px;
-    }
-
-.section-ajenda .session time {
-    padding       : 5px 25px 15px;
-    border-bottom : 1px solid #eeeeee;
-    display       : inline-block;
-    }
-
-.section-ajenda .session h2 {
-    margin : 20px 0 0 20px;
-    }
-
-.section-ajenda .session h3 {
-    margin         : 20px 0 20px 20px;
-    font-size      : 20px;
-    text-transform : uppercase;
-    }
-
-.section-ajenda .session h3 span {
-    font-size   : 14px;
-    display     : block;
-    line-height : 1;
-    }
-
-@media (max-width : 766px) {
-    .section-ajenda .schedule tbody td img {
-        display: block;
-        width: 50px;
-        margin: auto;
-    }
 }
 
 #section-travel ul {
