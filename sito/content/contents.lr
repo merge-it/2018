@@ -72,7 +72,7 @@ body:
             <div class="col-md-12 text-center">
                 <div class="section-title">
                     <br>
-                    <a class="btn btn-primary" href="location">Come Arrivare<br>Dove Dormire<br>Dove Mangiare</a>
+                    <a class="btn btn-primary" href="location">Come Arrivare</a>
                     <br>
                 </div>
             </div>
@@ -144,7 +144,7 @@ body:
                                             <p>Wikimedia Italia</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -153,7 +153,7 @@ body:
                                             <p>OpenStreetMap Italia + GFOSS-it</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -162,7 +162,7 @@ body:
                                             <p>Spaghetti Open Data</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -171,7 +171,7 @@ body:
                                             <p>Ubuntu-IT</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -189,7 +189,7 @@ body:
                                             <p>LibreItalia</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -207,7 +207,7 @@ body:
                                             <p>Mozilla Italia</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                 </tr>
@@ -223,7 +223,7 @@ body:
                                             <p>Wikimedia Italia</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -241,7 +241,7 @@ body:
                                             <p>Spaghetti Open Data</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -250,7 +250,7 @@ body:
                                             <p>Ubuntu-IT</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -268,7 +268,7 @@ body:
                                             <p>Ninux</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
@@ -277,7 +277,7 @@ body:
                                             <p>Industria Italiana Software Libero</p>
                                         </div>
                                         <div class="half-session-contents">
-                                            Talk
+                                            Sessione Talk
                                         </div>
                                     </td>
                                     <td class="half-session">
