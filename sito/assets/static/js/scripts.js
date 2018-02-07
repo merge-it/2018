@@ -75,7 +75,7 @@ jQuery(function ($) {
         L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
         L.marker([45.0654, 7.6585], {icon: starIcon}).bindPopup("MERGE-it").addTo(map);
         L.marker([45.0659, 7.6648], {icon: eatIcon}).bindPopup("Bar The Coffee Hub<br>Corso Duca degli Abruzzi 10").addTo(map);
-		L.marker([45.0641, 7.6637], {icon: eatIcon}).bindPopup("Imperatore Istanbul Pizza e Kebap<br>Corso Duca degli Abruzzi 18").addTo(map);
+        L.marker([45.0641, 7.6637], {icon: eatIcon}).bindPopup("Imperatore Istanbul Pizza e Kebap<br>Corso Duca degli Abruzzi 18").addTo(map);
         L.marker([45.0649, 7.6534], {icon: eatIcon}).bindPopup("Pizzeria La Sarda<br>Via Gambasca 4F").addTo(map);
         L.marker([45.0652, 7.6550], {icon: eatIcon}).bindPopup("Paninoteca 30 e Lode<br>Via San Paolo 1").addTo(map);
         L.marker([45.0651, 7.6528], {icon: eatIcon}).bindPopup("Deniz Kebab<br>Via Monginevro 13/C").addTo(map);
