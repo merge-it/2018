@@ -1,3 +1,7 @@
+:root {
+    --one-hour-size: 300px;
+}
+
 body {
     font-family : 'Roboto', sans-serif;
     font-size   : 17px;
@@ -599,7 +603,7 @@ body.home .navbar {
     width: 11.11%;
 }
 .section-ajenda .schedule tbody td {
- 	min-height: 200px;
+ 	min-height: 50px;
  	text-align: center;
  	vertical-align: middle;
  	position: relative;
@@ -608,10 +612,10 @@ body.home .navbar {
 }
 
 .section-ajenda .schedule-hours {
-    width: 10%;
+    width: 5%;
 }
 .section-ajenda .schedule-hours td {
-    height: 70px;
+    height: calc(0.5 * var(--one-hour-size));
 }
 
 .section-ajenda .schedule-contents {
@@ -619,7 +623,7 @@ body.home .navbar {
 }
 
 .section-ajenda .lunch {
-    height: 70px;
+    height: calc(1 * var(--one-hour-size));
     border-top: 1px solid #BBB;
     border-bottom: 1px solid #BBB;
     box-sizing: border-box;
@@ -628,9 +632,58 @@ body.home .navbar {
 .half-session {
     padding: 0;
     margin: 0;
-    height: calc(70px * 3.5);
+    height: calc(3.5 * var(--one-hour-size));
     width: 12.5%;
     min-width: 100px;
+}
+.talk {
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    border: 3px solid #FFF;
+    line-height: 1;
+}
+.talk-content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: #EEE;
+}
+.talk-content .title {
+    margin-bottom: 0;
+}
+.talk-content small {
+    font-size: 65%;
+}
+.duration-15 {
+    height: calc(0.25 * var(--one-hour-size));
+}
+.duration-30 {
+    height: calc(0.50 * var(--one-hour-size));
+}
+.duration-45 {
+    height: calc(0.75 * var(--one-hour-size));
+}
+.duration-60 {
+    height: calc(1 * var(--one-hour-size));
+}
+.duration-90 {
+    height: calc(1.50 * var(--one-hour-size));
+}
+.duration-105 {
+    height: calc(1.75 * var(--one-hour-size));
+}
+.duration-120 {
+    height: calc(2 * var(--one-hour-size));
+}
+.duration-135 {
+    height: calc(2.25 * var(--one-hour-size));
+}
+.duration-150 {
+    height: calc(2.50 * var(--one-hour-size));
+}
+.duration-180 {
+    height: calc(3 * var(--one-hour-size));
 }
 .half-session .half-session-head {
     margin-bottom: 30px;

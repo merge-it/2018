@@ -92,11 +92,11 @@ body:
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
-                <p class="lead">
-                    Il programma è in fase di definizione.
-                </p>
                 <p>
                     Sono previste diverse sessioni tematiche e parallele, tra cui spostarsi nel corso della giornata per approfondire i diversi argomenti e conoscere le diverse community.
+                </p>
+                <p>
+                    Il programma è in evoluzione e soggetto a cambiamenti.
                 </p>
             </div>
         </div>
@@ -112,25 +112,49 @@ body:
                                         <td>10:00</td>
                                     </tr>
                                     <tr>
+                                        <td>10:30</td>
+                                    </tr>
+                                    <tr>
                                         <td>11:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:30</td>
                                     </tr>
                                     <tr>
                                         <td>12:00</td>
                                     </tr>
                                     <tr>
+                                        <td>12:30</td>
+                                    </tr>
+                                    <tr>
                                         <td>13:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13:30</td>
                                     </tr>
                                     <tr>
                                         <td>14:00</td>
                                     </tr>
                                     <tr>
+                                        <td>14:30</td>
+                                    </tr>
+                                    <tr>
                                         <td>15:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30</td>
                                     </tr>
                                     <tr>
                                         <td>16:00</td>
                                     </tr>
                                     <tr>
+                                        <td>16:30</td>
+                                    </tr>
+                                    <tr>
                                         <td>17:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:30</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -156,15 +180,31 @@ body:
                                             Sessione Talk
                                         </div>
                                     </td>
+
+                                    <!-- SPAGHETTI OPEN DATA: MATTINA -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/sod.png">
-                                            <p>Spaghetti Open Data</p>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Intro</p>
+                                                <small>Matteo Brunati</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-60">
+                                            <div class="talk-content">
+                                                <p class="title">Come curarsi delle comunità</p>
+                                                <small>Alfredo Morresi, Matteo Brunati, Alberto Cottica, Ida Leone, Ilaria Vitellio</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-60">
+                                            <div class="talk-content">
+                                                <p class="title">Il diritto digitale della città</p>
+                                                <small>Federico Piovesan</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-60">
                                         </div>
                                     </td>
+
                                     <td class="half-session">
                                         <div class="half-session-head">
                                             <img src="static/images/logos/ubuntuit.png">
@@ -174,48 +214,129 @@ body:
                                             Sessione Talk
                                         </div>
                                     </td>
+
+                                    <!-- ITALIAN LINUX SOCIETY: MATTINA -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/ils.png">
-                                            <p>Italian Linux Society</p>
+                                        <div class="talk duration-30">
                                         </div>
-                                        <div class="half-session-contents">
-                                            Assemblea
+                                        <div class="talk duration-120">
+                                            <div class="talk-content">
+                                                <p class="title">Assemblea</p>
+                                                <small>Italian Linux Society</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-60">
                                         </div>
                                     </td>
+
+                                    <!-- LIBREITALIA: MATTINA -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/libreitalia.png">
-                                            <p>LibreItalia</p>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">LibreOffice 6</p>
+                                                <small>Enio Gemmo</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-120">
+                                            <div class="talk-content">
+                                                <p class="title">TDF - Certificazione LibreOffice - Estensioni - Privacy</p>
+                                                <small>Marina Latini</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-60">
+                                            <div class="talk-content">
+                                                <p class="title">Tavola Rotonda</p>
+                                                <small>Ninux & Co.</small>
+                                            </div>
                                         </div>
                                     </td>
+
+                                    <!-- INDUSTRIA ITALIANA SOFTWARE LIBERO: MATTINA -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/iisl.png">
-                                            <p>Industria Italiana Software Libero</p>
+                                        <div class="talk duration-60">
+                                            <div class="talk-content">
+                                                <p class="title">Assemblea</p>
+                                                <small>Industria Italiana Software Libero</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Assemblea
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">La competizione dell'industria software</p>
+                                                <small>Marco Lombardo</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Contribute on WordPress</p>
+                                                <small>Daniele Scasciafratte</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Norme per il software libero nella P.A.</p>
+                                                <small>Marco Ciurcina</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-60">
                                         </div>
                                     </td>
+
+                                    <!-- MOZILLA: MATTINO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/mozilla.png">
-                                            <p>Mozilla Italia</p>
+                                        <div class="talk duration-15">
+                                            <div class="talk-content">
+                                                <p class="title">Intro</p>
+                                                <small></small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Crea un'esperienza VR</p>
+                                                <small>Eugenio Petullà</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">The mystery of WebAssembly</p>
+                                                <small>Gabriele Falasca</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Internet Health report</p>
+                                                <small>Edoardo Viola</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-15">
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Da Rust a Firefox Quantum</p>
+                                                <small>Stefania Delprete</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Rust e av1: rav1e</p>
+                                                <small>Luca Barbato</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Rust e CoreOS</p>
+                                                <small>Luca Bruno</small>
+                                            </div>
                                         </div>
                                     </td>
                                 </tr>
+
+                                <!-- PRANZO -->
                                 <tr class="lunch">
                                     <td colspan="8">
                                         <a href="/location/#section-food">Pranzo</a>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td class="half-session">
                                         <div class="half-session-head">
@@ -226,6 +347,7 @@ body:
                                             Sessione Talk
                                         </div>
                                     </td>
+
                                     <td class="half-session">
                                         <div class="half-session-head">
                                             <img src="static/images/logos/openstreetmap.png"> <img src="static/images/logos/gfoss.png">
@@ -235,15 +357,49 @@ body:
                                             Attività Pratiche
                                         </div>
                                     </td>
+
+                                    <!-- SPAGHETTI OPEN DATA: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/sod.png">
-                                            <p>Spaghetti Open Data</p>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Open Data e i bot</p>
+                                                <small>Luigi Teschio</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">OpenGeoData School</p>
+                                                <small>Davide Gamba</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-15">
+                                            <div class="talk-content">
+                                                <p class="title">Ricerca libera e riproducibile</p>
+                                                <small>Marco Scarselli</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Carsharing e opendata</p>
+                                                <small>Andrea Trentini</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-45">
+                                            <div class="talk-content">
+                                                <p class="title">Superset</p>
+                                                <small>Riccardo Magliocchetti</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Albo POP</p>
+                                                <small>Cristiano Longo</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
                                         </div>
                                     </td>
+
                                     <td class="half-session">
                                         <div class="half-session-head">
                                             <img src="static/images/logos/ubuntuit.png">
@@ -253,43 +409,171 @@ body:
                                             Sessione Talk
                                         </div>
                                     </td>
+
+                                    <!-- ITALIAN LINUX SOCIETY: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/ils.png">
-                                            <p>Italian Linux Society</p>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Linux in Italia: il punto</p>
+                                                <small>Roberto Guido</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            LUGConf
+                                        <div class="talk duration-180">
+                                            <div class="talk-content">
+                                                <p class="title">LUGConf</p>
+                                                <small>Italian Linux Society</small>
+                                            </div>
                                         </div>
                                     </td>
+
+                                    <!-- NINUX: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/ninux.png">
-                                            <p>Ninux</p>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Il progetto netCommons</p>
+                                                <small>Leonardo Maccari</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Licenza per reti libere e aperte</p>
+                                                <small>Stefano De Carlo</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Girantenna</p>
+                                                <small>Marco Musuimeci</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-45">
+                                            <div class="talk-content">
+                                                <p class="title">Protocolli</p>
+                                                <small>Claudio Pisa</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">IoT 30m</p>
+                                                <small>Nino Ciurleo</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Kiotlog: Piattaforma IoT</p>
+                                                <small>G. Mancini</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-15">
                                         </div>
                                     </td>
+
+                                    <!-- INDUSTRIA ITALIANA SOFTWARE LIBERO: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/iisl.png">
-                                            <p>Industria Italiana Software Libero</p>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Blockchain Open Source per soluzioni enterprise</p>
+                                                <small>Eugenio Petullà</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-45">
+                                            <div class="talk-content">
+                                                <p class="title">GlobaLeaks</p>
+                                                <small>Fabio Pietrosanti</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-15">
+                                            <div class="talk-content">
+                                                <p class="title">Coding for everyone!</p>
+                                                <small>Matteo Giaccone</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-60">
+                                        </div>
+                                        <div class="talk duration-60">
+                                            <div class="talk-content">
+                                                <p class="title">Dibattito</p>
+                                                <small>Industria Italiana Software Libero</small>
+                                            </div>
                                         </div>
                                     </td>
+
+                                    <!-- MOZILLA: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/mozilla.png">
-                                            <p>Mozilla Italia</p>
+                                        <div class="talk duration-60">
+                                            <div class="talk-content">
+                                                <p class="title">Firefox is ready for the modern dev</p>
+                                                <small>Daniele Scasciafratte</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Attività Pratiche
+                                        <div class="talk duration-60">
+                                            <div class="talk-content">
+                                                <p class="title">WebVR</p>
+                                                <small>Edoardo Viola</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-90">
+                                            <div class="talk-content">
+                                                <p class="title">Assemblea e Forum</p>
+                                                <small>Mozilla Italia</small>
+                                            </div>
                                         </div>
                                     </td>
                                 </tr>
+                            </table>
+                        </td>
+                        <td class="schedule-hours">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>10:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:30</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </td>
                     </tr>
