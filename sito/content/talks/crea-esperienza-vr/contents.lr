@@ -1,0 +1,16 @@
+title: Crea un'esperienza VR
+---
+description:
+
+Immaginare metaversi risulta già di per sé un esercizio che si discosta parecchio dal nostro modo di intendere lo sviluppo web, doverli poi rendere fruibili e immersivi allo stesso modo su dispositivi differenti è considerata ad oggi la sfida più grande della WebVR. Mozilla ha creato A-Frame, una libreria JS per ridurre questa frizione. In questo talk andremo ad analizzare alcune tecniche e strumenti avanzati che ci permetteranno di creare un ambiente WebVR coerente e facilmente navigabile da qualsiasi device.
+
+---
+speaker: Eugenio Petullà
+---
+start: 11:30
+---
+stop: 12:00
+---
+session: mozilla
+---
+slot: mattina

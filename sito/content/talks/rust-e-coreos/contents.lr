@@ -1,0 +1,19 @@
+title: Rust e CoreOS
+---
+description:
+
+CoreOS ha portato un carico di novità nell'ambito server, introducendo con "ContainerLinux" un Sistema Operativo immutabile e auto-aggiornante.
+Inclusi nella distribuzione vi sono alcuni componenti scritti ex-novo in Rust, che vengono quotidianamente eseguiti in migliaia di ambienti di produzione.
+Questo talk vuole fornire una panoramica generale dei progetti open-source in Rust all'interno di CoreOS, sia quelli nella distribuzione "stable" che quelli ancora in incubazione.
+Verranno coperti inoltre dettagli tecnici relativi a come questi progetti vengono (cross-)compilati nell'SDK della distribuzione, nonché le motivazioni sulla scelta di Rust rispetto alle tradizionali alternative di C e Go.
+
+---
+speaker: Luca Bruno
+---
+start: 13:00
+---
+stop: 13:30
+---
+session: mozilla
+---
+slot: mattina
