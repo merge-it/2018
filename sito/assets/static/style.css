@@ -658,6 +658,9 @@ body.home .navbar {
 .duration-15 {
     height: calc(0.25 * var(--one-hour-size));
 }
+.duration-20 {
+    height: calc(0.3333 * var(--one-hour-size));
+}
 .duration-30 {
     height: calc(0.50 * var(--one-hour-size));
 }
@@ -697,6 +700,11 @@ body.home .navbar {
 .half-session .half-session-head p {
     font-size: 10px;
     display: block;
+}
+
+.section-talk ul {
+    list-style: inherit;
+    padding: inherit;
 }
 
 #section-travel ul {

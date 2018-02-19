@@ -1,0 +1,20 @@
+title: Gli Open Data della Provincia di Biella
+---
+description:
+
+La presentazione analizzerà il caso virtuoso del riuso degli open data rilasciati dalla Provincia di Biella e la loro importazione nel database di OpenStreetMap.
+Inizieremo parlando del processo che ha affrontato l'ente locale per raccogliere e mettere successivamente a disposizione i dati con una licenza open.
+Verranno poi descritte le linee guida richieste dalla comunità OpenStreetMap per permettere l'import di dati di terze parti.
+Saranno analizzati nel dettaglio il processo e gli strumenti utilizzati per importare i dati.
+Infine, verranno mostrati i tool per effettuare il controllo di qualità dei dati inseriti e verrà analizzato quale apporto hanno dato questi dati a OpenStreetMap.
+
+---
+speaker: Andrea Musuruae
+---
+start: 11:20
+---
+stop: 11:50
+---
+session: osm
+---
+slot: mattina

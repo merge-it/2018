@@ -171,13 +171,58 @@ body:
                                             Sessione Talk
                                         </div>
                                     </td>
+
+                                    <!-- OSM: MATTINA -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/openstreetmap.png"> <img src="static/images/logos/gfoss.png">
-                                            <p>OpenStreetMap Italia + GFOSS-it</p>
+                                        <div class="talk duration-20">
+                                            <div class="talk-content">
+                                                <p class="title">Perché Soluzioni Open</p>
+                                                <small></small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-20">
+                                            <div class="talk-content">
+                                                <p class="title">Utilizzare OSM</p>
+                                                <small></small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-20">
+                                            <div class="talk-content">
+                                                <p class="title">Introduzione a OSM</p>
+                                                <small></small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-20">
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Gli Open Data della Provincia di Biella</p>
+                                                <small>Andrea Musuruae</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Torino e Yangon</p>
+                                                <small>Roberta Castelli</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-20">
+                                            <div class="talk-content">
+                                                <p class="title">OpenStreetMap per Amatrice</p>
+                                                <small>Matteo Zaffonato</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Polimappers</p>
+                                                <small>Francesco Frassinelli</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-20">
+                                            <div class="talk-content">
+                                                <p class="title">Aggiornamento e lignaggio di OpenStreetMap</p>
+                                                <small>Francesco Frassinelli</small>
+                                            </div>
                                         </div>
                                     </td>
 
@@ -348,13 +393,19 @@ body:
                                         </div>
                                     </td>
 
+                                    <!-- OSM: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/openstreetmap.png"> <img src="static/images/logos/gfoss.png">
-                                            <p>OpenStreetMap Italia + GFOSS-it</p>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Introduzione a Mapillary</p>
+                                                <small></small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Attività Pratiche
+                                        <div class="talk duration-180">
+                                            <div class="talk-content">
+                                                <p class="title">Attività pratiche su Mapillary, OpenStreetMap e software libero geografico</p>
+                                                <small></small>
+                                            </div>
                                         </div>
                                     </td>
 

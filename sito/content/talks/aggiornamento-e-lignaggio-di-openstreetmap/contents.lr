@@ -1,0 +1,16 @@
+title: Aggiornamento e lignaggio di OpenStreetMap
+---
+description:
+
+Il problema principale che limita un utilizzo ancora più esteso dei dati di OSM è quello - tipico dei progetti di crowdsourcing - della qualità. La letteratura ha proposto finora innumerevoli approcci per valutare, in modo più o meno automatico e generalizzabile, i diversi parametri di qualità per i dati geospaziali: accuratezza posizionale, completezza, accuratezza tematica, accuratezza temporale, aggiornamento e lignaggio. Tali approcci si classificano in due categorie: estrinseci, se la valutazione della qualità avviene per confronto con un dataset esterno di riferimento (ad esempio una cartografia ufficiale) ed intrinseci, se la valutazione della qualità avviene analizzando unicamente i dati stessi di OSM. Il presente lavoro si inserisce in questo contesto per sopperire alla quasi totale assenza di approcci intrinseci per la valutazione (sia separata che congiunta) dei parametri di qualità di accuratezza tematica, accuratezza temporale, aggiornamento e lignaggio.
+
+---
+speaker: Francesco Frassinelli
+---
+start: 13:10
+---
+stop: 13:30
+---
+session: osm
+---
+slot: mattina
