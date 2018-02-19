@@ -539,7 +539,17 @@ body:
                                                 <small>Matteo Giaccone</small>
                                             </div>
                                         </div>
-                                        <div class="talk duration-60">
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Come funziona la mia agenzia</p>
+                                                <small>Giovanni La Motta</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Strategie e Best Practices</p>
+                                                <small>Vincenzo Bruno</small>
+                                            </div>
                                         </div>
                                         <div class="talk duration-60">
                                             <div class="talk-content">
