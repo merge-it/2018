@@ -681,5 +681,18 @@ body:
                 <a href="http://www.quadrata.it/"><img src="static/images/sponsor/quadrata.png" class="img-responsive"></a>
             </div>
         </div>
+        <br><br><br><br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>MEDIA PARTNER</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-5">
+                <a href="https://www.top-ix.org/it/home/"><img src="static/images/sponsor/topix.png" class="img-responsive"></a>
+            </div>
+        </div>
     </div>
 </section>
