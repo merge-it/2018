@@ -662,10 +662,13 @@ body.home .navbar {
     height: calc(0.25 * var(--one-hour-size));
 }
 .duration-20 {
-    height: calc(0.3333 * var(--one-hour-size));
+    height: calc(var(--one-hour-size) / 3);
 }
 .duration-30 {
     height: calc(0.50 * var(--one-hour-size));
+}
+.duration-40 {
+    height: calc((var(--one-hour-size) / 3) * 2);
 }
 .duration-45 {
     height: calc(0.75 * var(--one-hour-size));
@@ -681,6 +684,9 @@ body.home .navbar {
 }
 .duration-120 {
     height: calc(2 * var(--one-hour-size));
+}
+.duration-125 {
+    height: calc(2 * var(--one-hour-size) + var(--one-hour-size) / 12);
 }
 .duration-135 {
     height: calc(2.25 * var(--one-hour-size));

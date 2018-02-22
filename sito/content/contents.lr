@@ -250,13 +250,21 @@ body:
                                         </div>
                                     </td>
 
+                                    <!-- UBUNTU: MATTINA -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/ubuntuit.png">
-                                            <p>Ubuntu-IT</p>
+                                        <div class="talk duration-40">
+                                            <div class="talk-content">
+                                                <p class="title">Gruppo Sistemisti: Status Report</p>
+                                                <small>Pietro Albini</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-45">
+                                            <div class="talk-content">
+                                                <p class="title">Ubuntu Phone, la rinascita</p>
+                                                <small>Dario Cavedon</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-125">
                                         </div>
                                     </td>
 
@@ -451,13 +459,27 @@ body:
                                         </div>
                                     </td>
 
+                                    <!-- UBUNTU: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="half-session-head">
-                                            <img src="static/images/logos/ubuntuit.png">
-                                            <p>Ubuntu-IT</p>
+                                        <div class="talk duration-40">
+                                            <div class="talk-content">
+                                                <p class="title">La documentazione di Ubuntu</p>
+                                                <small>Jeremie Tamburini</small>
+                                            </div>
                                         </div>
-                                        <div class="half-session-contents">
-                                            Sessione Talk
+                                        <div class="talk duration-40">
+                                            <div class="talk-content">
+                                                <p class="title">Social Media for Communities</p>
+                                                <small>Dario Cavedon</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-40">
+                                            <div class="talk-content">
+                                                <p class="title">Il futuro di Ubuntu</p>
+                                                <small>Marco Trevisan</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-90">
                                         </div>
                                     </td>
 
