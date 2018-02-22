@@ -664,6 +664,9 @@ body.home .navbar {
 .duration-20 {
     height: calc(var(--one-hour-size) / 3);
 }
+.duration-25 {
+    height: calc(0.40 * var(--one-hour-size));
+}
 .duration-30 {
     height: calc(0.50 * var(--one-hour-size));
 }

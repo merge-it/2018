@@ -264,7 +264,15 @@ body:
                                                 <small>Dario Cavedon</small>
                                             </div>
                                         </div>
-                                        <div class="talk duration-125">
+                                        <div class="talk duration-60">
+                                        </div>
+                                        <div class="talk duration-40">
+                                            <div class="talk-content">
+                                                <p class="title">Il futuro di Ubuntu</p>
+                                                <small>Marco Trevisan</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-25">
                                         </div>
                                     </td>
 
@@ -461,7 +469,7 @@ body:
 
                                     <!-- UBUNTU: POMERIGGIO -->
                                     <td class="half-session">
-                                        <div class="talk duration-40">
+                                        <div class="talk duration-45">
                                             <div class="talk-content">
                                                 <p class="title">La documentazione di Ubuntu</p>
                                                 <small>Jeremie Tamburini</small>
@@ -473,13 +481,25 @@ body:
                                                 <small>Dario Cavedon</small>
                                             </div>
                                         </div>
-                                        <div class="talk duration-40">
+                                        <div class="talk duration-20">
+                                        </div>
+                                        <div class="talk duration-30">
                                             <div class="talk-content">
-                                                <p class="title">Il futuro di Ubuntu</p>
-                                                <small>Marco Trevisan</small>
+                                                <p class="title">Debian e la sua comunità</p>
+                                                <small>Elena Grandi</small>
                                             </div>
                                         </div>
-                                        <div class="talk duration-90">
+                                        <div class="talk duration-30">
+                                            <div class="talk-content">
+                                                <p class="title">Public Money : Public Code</p>
+                                                <small>Natale Vinto</small>
+                                            </div>
+                                        </div>
+                                        <div class="talk duration-45">
+                                            <div class="talk-content">
+                                                <p class="title">Emacs e la nascita del software libero</p>
+                                                <small>Emmanuele Somma</small>
+                                            </div>
                                         </div>
                                     </td>
 
