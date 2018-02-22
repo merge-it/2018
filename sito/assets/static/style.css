@@ -617,6 +617,9 @@ body.home .navbar {
 .section-ajenda .schedule-hours td {
     height: calc(0.5 * var(--one-hour-size));
 }
+.section-ajenda .schedule-hours tbody td {
+    vertical-align: top;
+}
 
 .section-ajenda .schedule-contents {
     width: 90%;
