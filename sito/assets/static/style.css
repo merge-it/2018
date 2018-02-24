@@ -714,6 +714,7 @@ body.home .navbar {
 .section-talk ul {
     list-style: inherit;
     padding: inherit;
+    margin-bottom: 20px;
 }
 
 #section-travel ul {
