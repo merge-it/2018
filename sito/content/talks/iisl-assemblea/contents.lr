@@ -12,3 +12,5 @@ stop: 11:00
 session: iisl
 ---
 slot: mattina
+---
+duration: 60

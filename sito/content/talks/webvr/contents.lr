@@ -12,3 +12,5 @@ stop: 16:30
 session: mozilla
 ---
 slot: pomeriggio
+---
+duration: 60

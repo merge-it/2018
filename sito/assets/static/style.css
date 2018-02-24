@@ -580,9 +580,6 @@ body.home .navbar {
  * Agenda
  *---------------------------*/
 
-.section-ajenda a {
-    font-weight: bold;
-}
 .section-ajenda table {
     margin: 0;
     padding: 0;

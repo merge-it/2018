@@ -12,3 +12,5 @@ stop: 12:30
 session: sod
 ---
 slot: mattina
+---
+duration: 60

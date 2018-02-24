@@ -5,10 +5,12 @@ description:
 ---
 speaker: Stefania Delprete
 ---
-start: 12:30
+start: 12:00
 ---
 stop: 12:30
 ---
 session: mozilla
 ---
 slot: mattina
+---
+duration: 30

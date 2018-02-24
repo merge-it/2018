@@ -9,6 +9,8 @@ start: 12:30
 ---
 stop: 13:30
 ---
-session: ninux
+session: libreninux
 ---
 slot: mattina
+---
+duration: 60

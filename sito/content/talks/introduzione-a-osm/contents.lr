@@ -12,3 +12,5 @@ stop: 11:00
 session: osm
 ---
 slot: mattina
+---
+duration: 20

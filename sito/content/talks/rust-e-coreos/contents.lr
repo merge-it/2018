@@ -17,3 +17,5 @@ stop: 13:30
 session: mozilla
 ---
 slot: mattina
+---
+duration: 30

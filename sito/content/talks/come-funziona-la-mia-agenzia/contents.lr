@@ -12,3 +12,5 @@ stop: 16:30
 session: iisl
 ---
 slot: pomeriggio
+---
+duration: 30

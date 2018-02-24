@@ -12,3 +12,5 @@ stop: 15:00
 session: ils
 ---
 slot: pomeriggio
+---
+duration: 30

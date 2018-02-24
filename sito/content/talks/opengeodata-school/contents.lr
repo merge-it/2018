@@ -22,3 +22,5 @@ stop: 16:00
 session: sod
 ---
 slot: pomeriggio
+---
+duration: 30
