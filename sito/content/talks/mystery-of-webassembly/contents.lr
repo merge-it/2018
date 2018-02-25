@@ -1,8 +1,8 @@
-title: Linux in Italia: il punto
+title: The Mistery of WebAssembly
 ---
 description:
 
-WebAssembly è un nuovo formato assembly-like sviluppato per migliorare le prestazioni delle applicazioni web. Il talk "The mystery of WebAssembly" è una panoramica su questa nuova tecnologia, partendo dall'esigenza di avere un nuovo formato, passando attraverso l'ambiente di sviluppo e l'integrazione con librerie già esistenti, fino alle demo e gli applicativi già sviluppati.
+WebAssembly è un nuovo formato assembly-like sviluppato per migliorare le prestazioni delle applicazioni web. Il talk "The Mistery of WebAssembly" è una panoramica su questa nuova tecnologia, partendo dall'esigenza di avere un nuovo formato, passando attraverso l'ambiente di sviluppo e l'integrazione con librerie già esistenti, fino alle demo e gli applicativi già sviluppati.
 
 ---
 speaker: Gabriele Falasca
