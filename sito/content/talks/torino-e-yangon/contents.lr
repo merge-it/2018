@@ -1,0 +1,21 @@
+title: Torino e Yangon
+---
+description:
+
+I dati geografici acquisiti attraverso campagne di mappatura con il coinvolgimento di cittadini volontari consentono di ottimizzare la fase di raccolta dati e di utilizzare gli stessi per erogare nuovi servizi per i cittadini. 5T ed Ithaca hanno promosso l'uso di OSM in due specifiche occasioni:
+
+* Torino Mapping Party: nel mese di ottobre 2017 ha avuto luogo il primo mapping party patrocinato dal Comune di Torino, in cui i cittadini hanno rilevato e caricato informazioni su OSM, che sono confluite nel portale della mobilità cittadina Muoversi a Torino
+* SUMP Yangon: nell'ambito di un progetto di cooperazione internazionale con il Myanmar, è stato fornito un supporto tecnico e organizzato un mapping party per il rilievo dell'infrastruttura di trasporto pubblico (fermate, stazioni e linee) della città di Yangon e al suo inserimento in OSM. Tali dati sono stati quindi utilizzati per gestire il servizio pubblico e per erogare di servizi di infomobilità tramite la creazione di file GTFS.
+
+---
+speaker: Roberta Castelli
+---
+start: 11:50
+---
+stop: 12:20
+---
+session: osm
+---
+slot: mattina
+---
+duration: 30

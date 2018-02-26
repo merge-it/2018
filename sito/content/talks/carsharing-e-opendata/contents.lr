@@ -1,0 +1,18 @@
+title: Carsharing e opendata
+---
+description:
+
+Modern countries car traffic is nowadays fought by regulations: tolls, dedicated/narrow lanes, low speed limits, reduced parking availability, etc. Some help can come from carsharing, i.e., pools of shared vehicles to be rented for short periods of time. The authors scraped carsharing websites for a couple of years, uniformed data and then queried and graphed the dataset, a summary of results is presented. Carsharing vendors should publish - openly, mandatorily, through standardized APIs - the state of their pool because this data can be used to analyse the overall traffic behaviour in town and study impacts, effectiveness and costs.
+
+---
+speaker: Andrea Trentini
+---
+start: 16:15
+---
+stop: 16:45
+---
+session: sod
+---
+slot: pomeriggio
+---
+duration: 30

@@ -1,0 +1,21 @@
+title: Kiotlog: Piattaforma IoT
+---
+description:
+
+Kiotlog è una piattaforma middleware open source per la creazione di applicazioni IoT di tipo Low Power Wide Area Network.
+Kiotlog permette di gestire in un unica piattaforma i dati provenienti da dispositivi connessi via LoRaWAN, SigFox, reti 2G/3G/xG e Kiotlog-SN con l'obiettivo di ridurre al minimo l'utilizzo della banda e i consumi di batteria.
+Il cuore della piattaforma è un catalogo che permette di descrivere dispositivi e sensori presenti in una applicazione IoT e allo stesso tempo usare le descrizioni per decodificare dinamicamente stream di dati raw. In questo modo, in trasmissione, è possibile evitare l'impiego di codifiche e protocolli di serializzazione e ottenere dei flussi di dati a bassissimi bitrate.
+Durante il talk verrà descritto lo scopo, gli obiettivi e l'architettura della piattaforma e verranno presentate le implementazioni di riferimento dei microservizi di backend/cloud (Docker, .NET Core, F#, Python, JavaScript, Polymer) e dei nodi IoT (Arduino).
+
+---
+speaker: Giampaolo Mancini
+---
+start: 17:15
+---
+stop: 17:45
+---
+session: libreninux
+---
+slot: pomeriggio
+---
+duration: 30

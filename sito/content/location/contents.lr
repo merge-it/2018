@@ -109,34 +109,15 @@ body:
 
         <div class="row">
             <div class="col-md-6">
+                <div id="bootstrap-map"></div>
+            </div>
+            <div class="col-md-6">
                 <p>
                     A Torino è estremamente diffusa la pratica dell'<i>apericena</i>, ovvero la cena a buffet da accompagnare all'aperitivo. Una modalità ideale per cenare in modo informale, spostandosi da un tavolo all'altro o chiaccherando in piedi.
                 </p>
                 <p>
                     Per accogliere coloro che arriveranno in città già il venerdi precedente a MERGE-it, e per iniziare a conoscerci, organizzeremo un apericena "distribuito" su diversi locali affacciati su <strong>Piazza Vittorio Veneto</strong>. Vedremo di farci individuare e riconoscere facilmente!
                 </p>
-            </div>
-            <div class="col-md-6">
-                <div id="bootstrap-map"></div>
-            </div>
-        </div>
-</section>
-
-<section id="section-sleep" class="section-wrapper gray-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>DOVE DORMIRE</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="alert alert-info text-center">
-                    TODO
-                </div>
             </div>
         </div>
 </section>
@@ -152,10 +133,13 @@ body:
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <div class="alert alert-info text-center">
-                    TODO
-                </div>
+            <div class="col-md-3">
+                <p>
+                    Per la pausa pranzo di sabato sono disponibili diversi locali nei dintorni di MERGE-it, sia per prendere qualcosa da asporto che per sedersi e mangiare comodamente. Non tutti sono aperti al sabato: qui una piccola selezione, per aiutare ad orientarsi.
+                </p>
+            </div>
+            <div class="col-md-9">
+                <div id="eating-map"></div>
             </div>
         </div>
 </section>
