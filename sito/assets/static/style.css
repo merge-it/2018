@@ -608,6 +608,11 @@ body.home .navbar {
     padding: 0;
 }
 
+.session_logo img {
+    width: 40%;
+    margin: 20px auto;
+}
+
 .section-ajenda .schedule-hours {
     width: 5%;
 }
