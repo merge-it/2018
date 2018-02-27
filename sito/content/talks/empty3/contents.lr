@@ -4,12 +4,12 @@ description:
 ---
 speaker:
 ---
-start: 11:25
+start: 11:20
 ---
-stop: 12:25
+stop: 11:40
 ---
 session: linux
 ---
 slot: mattina
 ---
-duration: 60
+duration: 20
