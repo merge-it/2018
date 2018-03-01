@@ -702,6 +702,9 @@ body.home .navbar {
 .duration-180 {
     height: calc(3 * var(--one-hour-size));
 }
+.duration-210 {
+    height: calc(3.5 * var(--one-hour-size));
+}
 .half-session .half-session-head {
     margin-bottom: 30px;
 }
