@@ -825,6 +825,12 @@ body.home .navbar {
         }
     }
 
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*---------------------------
  * C4P
  *---------------------------*/
