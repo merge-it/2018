@@ -1,0 +1,21 @@
+title: Internet of things comunitaria
+---
+description:
+
+Le community network sono reti costruite dal basso e gestite in maniera distribuita.
+Ogni nodo della rete comunitaria, dislocato sul territorio, si presta ad ospitare un gateway per l'interconnesione di reti di sensori alla rete Internet, realizzando cosi' un sistema di raccolta dati condiviso dai cittadini.
+I dati raccolti in questo modo possono poi essere messi a disposizione in modo libero, aperto e trasparente a chiunque voglia utilizzarli.
+Scopo del talk e' presentare lo state of art delle reti di sensori applicate alle community network e le migliori tecniche per realizzarle.
+
+---
+speaker: Nino Ciurleo
+---
+start: 16:45
+---
+stop: 17:15
+---
+session: libreninux
+---
+slot: pomeriggio
+---
+duration: 30
