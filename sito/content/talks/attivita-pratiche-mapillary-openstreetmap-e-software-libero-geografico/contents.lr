@@ -5,7 +5,7 @@ description:
 ---
 speaker:
 ---
-start: 15:00
+start: 15:30
 ---
 stop: 18:00
 ---
@@ -13,4 +13,4 @@ session: osm
 ---
 slot: pomeriggio
 ---
-duration: 180
+duration: 150
