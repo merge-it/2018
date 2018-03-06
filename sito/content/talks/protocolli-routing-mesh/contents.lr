@@ -1,0 +1,18 @@
+title: Introduzione ai protocolli di routing per reti mesh
+---
+description:
+
+Molte community network basano il loro funzionamento sui protocolli di routing per reti mesh. In questo talk introdurremo questo tipo di reti, senza fili e non-gerarchiche, e faremo una panoramica del funzionamento dei protocolli di routing piu' popolari e delle loro implementazioni open source.
+
+---
+speaker: Claudio Pisa
+---
+start: 16:00
+---
+stop: 16:45
+---
+session: libreninux
+---
+slot: pomeriggio
+---
+duration: 45

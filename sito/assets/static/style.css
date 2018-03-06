@@ -608,6 +608,11 @@ body.home .navbar {
     padding: 0;
 }
 
+.session_logo img {
+    width: 60%;
+    margin: 20px auto;
+}
+
 .section-ajenda .schedule-hours {
     width: 5%;
 }
@@ -696,6 +701,9 @@ body.home .navbar {
 }
 .duration-180 {
     height: calc(3 * var(--one-hour-size));
+}
+.duration-210 {
+    height: calc(3.5 * var(--one-hour-size));
 }
 .half-session .half-session-head {
     margin-bottom: 30px;
@@ -816,6 +824,12 @@ body.home .navbar {
         margin-bottom : 30px;
         }
     }
+
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*---------------------------
  * C4P
