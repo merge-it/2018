@@ -2,15 +2,25 @@ title: Tavola Rotonda
 ---
 description:
 
+Momento di discussione libera con i relatori, la community Ninux, gli esponenti delle altre community network italiane e il pubblico del Merge-it sui temi presentati durante la sessione (ma non solo).
+In particolare proponiamo all'ordine del giorno:
+
+* Net Neutrality
+* ISP Comunitari (Do-it-yourself ISP)
+* Privacy
+* Autoprovisioning di servizi
+* Licenze e Accordi di peering nelle reti comunitarie
+* Situazione normativa, #RadioLockdown europeo in particolare (RED)
+
 ---
 speaker: Ninux
 ---
-start: 12:30
+start: 17:00
 ---
-stop: 13:30
+stop: 18:00
 ---
 session: libreninux
 ---
-slot: mattina
+slot: pomeriggio
 ---
 duration: 60
