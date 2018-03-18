@@ -61,13 +61,13 @@ jQuery(function ($) {
         L.marker([45.0617, 7.6783], {icon: trainIcon}).bindPopup("Stazione Porta Nuova").addTo(map);
         L.marker([45.0717, 7.6660], {icon: trainIcon}).bindPopup("Stazione Porta Susa").addTo(map);
         L.marker([45.0673, 7.6621], {icon: parkingIcon}).bindPopup("Pacheggia Qui!").addTo(map);
-        L.marker([45.0649, 7.6952], {icon: partyIcon}).bindPopup("<b>Bootstrap Event</b><br>Venerdi 23 Marzo").addTo(map);
+        L.marker([45.0540, 7.6782], {icon: partyIcon}).bindPopup("<b>Bootstrap Event</b><br>Venerdi 23 Marzo").addTo(map);
     }
 
     if ($('#bootstrap-map').length) {
-        var map = L.map('bootstrap-map').setView([45.0648, 7.6953], 15);
+        var map = L.map('bootstrap-map').setView([45.0540, 7.6782], 15);
         L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
-        L.marker([45.0649, 7.6952], {icon: partyIcon}).addTo(map);
+        L.marker([45.0540, 7.6782], {icon: partyIcon}).addTo(map);
     }
 
     if ($('#eating-map').length) {

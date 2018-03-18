@@ -725,6 +725,12 @@ body.home .navbar {
     margin-bottom: 20px;
 }
 
+.planimetria {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
 #section-travel ul {
     list-style: circle;
     padding: 0 0 0 20px;
