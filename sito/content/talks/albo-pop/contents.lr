@@ -1,6 +1,11 @@
-title: Albo POP
+title: Albi Pretori e RSS: verso un Hacking della PA
 ---
 description:
+Tutte le pubbliche amministrazioni Italiane sono obbligate a pubblicare in un apposito spazio del proprio sito web tutti gli atti e le notizie di interesse pubbliche che la riguardano. Osservando gli avvisi che compaiono in albo è possibile comprendere il funzionamento di una Pubblica Amministrazione ed utilizzare appieno ed in maniera "adeguata" i servizi che offre o dovrebbe offire.
+<br/>
+La consultazione della pagina web però non può essere una modalità effettiva per il monitoraggio di una PA. Per questo motivo la comunità di Albo POP studia nuove modalità di analisi, trattamento e disseminazione degli avvisi presenti negli albi pretori. Il principale di questi strumenti sono i feed RSS, implementati tramite un protocollo aperto (appunto RSS) e fruibile attraverso molteplici software proprietari o liberi.
+<br/>
+Lo scopo di questa sessione è di mostrare l'esperienza di Albo POP, le difficoltà riscontrate e discutere insieme del suo futuro e di possibili evoluzioni.
 
 ---
 speaker: Cristiano Longo
