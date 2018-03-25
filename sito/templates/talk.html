@@ -17,7 +17,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div class="alert alert-info">
                         <p>
-                            {{ this.speaker }}
+                            Relatore: <b>{{ this.speaker }}</b>
                         </p>
                         <p>
                             Dalle {{ this.start }} alle {{ this.stop }}.
@@ -27,6 +27,14 @@
                     {{ this.description }}
                 </div>
             </div>
+
+            {% if this.attachments.get("slides.pdf") %}
+                <div class="text-center">
+                    <a class="btn btn-primary" href="{{ this.attachments.get("slides.pdf") | url }}">
+                        Scarica le slide
+                    </a>
+                </div>
+            {% endif %}
         </div>
     </section>
 {% endblock %}
