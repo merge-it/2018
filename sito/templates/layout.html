@@ -34,15 +34,6 @@
     <body {% block body_extra %}{% endblock %}>
         <div id="main-wrapper">
             <header class="header">
-                <!--
-                {% set latest = site.query("/news").first() %}
-                {% if latest %}
-                <div class="latest-news">
-                    Ultima notizia:
-                    <a href="{{ latest | url }}">{{ latest.title }}</a>
-                </div>
-                {% endif %}
-                -->
                 <nav class="navbar main-menu" role="navigation">
                     <div class="container">
                         <div class="navbar-header">
@@ -61,8 +52,8 @@
                                 <li><a href="{{ '/index.html#section-intro' | url }}">Info</a></li>
                                 <li><a href="{{ '/location' | url }}">Location</a></li>
                                 <li><a href="{{ '/index.html#section-ajenda' | url }}">Programma</a></li>
+                                <li><a href="{{ '/gallery' | url }}">Foto</a></li>
                                 <li><a href="{{ '/index.html#section-contacts' | url }}">Contatti</a></li>
-                                <!-- <li><a href="{{ '/news/' | url }}">Notizie</a></li> -->
                             </ul>
                         </div>
                     </div>
