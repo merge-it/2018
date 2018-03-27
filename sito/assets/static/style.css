@@ -927,6 +927,9 @@ body.home .navbar {
     border-color : #828F41;
     }
 
+.section-gallery img {
+    margin-bottom: 10px;
+}
 
 @media (max-width : 600px) {
     .form-control.input-lg{

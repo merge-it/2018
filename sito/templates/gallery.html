@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}Galleria Foto{% endblock %}
+{% block body %}
+    <br>
+
+    <section class="section-wrapper section-gallery">
+        <div class="container">
+            <div class="row">
+                {% for image in this.attachments.images %}
+                    <div class="col-md-3">
+                        <a href="{{ image|url }}" data-lightbox="images">
+                            <img src="{{ image.thumbnail(320)|url }}" class="img-responsive">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    CC-BY-4.0 <a href="http://www.officinedigitali.org/">Officine Digitali</a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
