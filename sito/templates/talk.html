@@ -35,6 +35,14 @@
                     </a>
                 </div>
             {% endif %}
+
+            {% if this.slides %}
+                <div class="text-center">
+                    <a class="btn btn-primary" href="{{ this.slides }}">
+                        Vedi le slide
+                    </a>
+                </div>
+            {% endif %}
         </div>
     </section>
 {% endblock %}

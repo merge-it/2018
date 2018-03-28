@@ -14,3 +14,5 @@ session: mozilla
 slot: pomeriggio
 ---
 duration: 60
+---
+slides: http://mte90.tech/Talk-DevTools
