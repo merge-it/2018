@@ -19,3 +19,5 @@ session: iisl
 slot: pomeriggio
 ---
 duration: 15
+---
+slides: https://turnintocoders.github.io/codingforeveryone/presentation/
